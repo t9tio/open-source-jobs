@@ -33,3 +33,4 @@ _Some company names have a ⚠️️️ icon next to them. This icon means we fa
 | [yugabyte-db](https://github.com/YugaByte/yugabyte-db) SQL database                                               | https://hire.withgoogle.com/public/jobs/yugabyte |
 | ⚠️️️[open bank](https://github.com/OpenBankProject/OBP-API)                                                       | https://www.openbankproject.com/contact/         |
 | [xtuple](https://github.com/xtuple/xtuple) open-source ERP and CRM software                                       | https://xtuple.com/about/careers                 |
+| [rundeck](https://github.com/rundeck/rundeck) an open source automation service                                   | https://www.rundeck.com/careers                  |
