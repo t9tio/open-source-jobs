@@ -62,7 +62,7 @@ _Some company names have a ⚠️️️ icon next to them. This icon means we fa
 
 ## Contributors
 
-- [timqian](https://github.com/timqian) building transparent projects [t9t.io](https://t9t.io)
+- [timqian](https://github.com/timqian) building transparent projects at [t9t.io](https://t9t.io)
 
 ## Thanks
 
