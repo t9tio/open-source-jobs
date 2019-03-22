@@ -5,9 +5,9 @@ A list of Open Source projects offering jobs. For who want to work on open sourc
 Contributions are very welcome! Please
 [submit a pull request on GitHub](https://github.com/t9tio/open-source-jobs/pulls).
 
-## Companies and projects
+## Jobs
 
-| Repositories | Description | Job Page |
+| Repository | Description | Job Page |
 | ------------ | ----------- | -------- |
 | [![](https://img.shields.io/github/stars/serverless/serverless.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#serverless/serverless)  [serverless/serverless](https://github.com/serverless/serverless)|Serverless Framework | https://serverless.com/company/jobs/ |
 | [![](https://img.shields.io/github/stars/Unitech/pm2.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#Unitech/pm2)  [Unitech/pm2](https://github.com/Unitech/pm2)|Node.js Production Process Manager | https://pm2.io/jobs/ |
