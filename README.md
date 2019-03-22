@@ -60,6 +60,10 @@ Contributions are very welcome! Please
 
 _Some company names have a ⚠️️️ icon next to them. This icon means we failed to find a hiring page for this company_
 
+## Contributors
+
+- [timqian](github.com/timqian)
+
 ## Thanks
 
 - [open source startups in crunchbase](https://www.crunchbase.com/hub/open-source-startups)
