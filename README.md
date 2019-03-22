@@ -11,7 +11,7 @@ _Some company names have a ⚠️️️ icon next to them. This icon means we fa
 
 | open source project                                                                                                  | job page                                         |
 | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| [arangodb](https://github.com/arangodb/arangodb) ![](https://img.shields.io/github/stars/arangodb/arangodb.svg?style=social&label=star%20History&link=https://star-history.t9t.io#arangodb/arangodb)                                                                    | https://www.arangodb.com/jobs/                   |
+| [arangodb](https://github.com/arangodb/arangodb) [![](https://img.shields.io/github/stars/arangodb/arangodb.svg?color=green&logo=github&label=Star%20History)](link=https://star-history.t9t.io#arangodb/arangodb)                                                                    | https://www.arangodb.com/jobs/                   |
 | [sysdig](https://github.com/draios/sysdig)                                                                           | https://sysdig.com/jobs/                         |
 | [ksql](https://github.com/confluentinc/ksql) the Streaming SQL Engine for Apache Kafka                               | https://www.confluent.io/careers/                |
 | [docker-ce](https://github.com/docker/docker-ce)                                                                     | https://www.docker.com/careers                   |
