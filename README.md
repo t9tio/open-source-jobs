@@ -11,8 +11,8 @@ Contributions are very welcome! Please
 | ------------ | ----------- | -------- |
 | [![](https://img.shields.io/github/stars/serverless/serverless.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#serverless/serverless)  [serverless/serverless](https://github.com/serverless/serverless)|Serverless Framework | https://serverless.com/company/jobs/ |
 | [![](https://img.shields.io/github/stars/Unitech/pm2.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#Unitech/pm2)  [Unitech/pm2](https://github.com/Unitech/pm2)|Node.js Production Process Manager | https://pm2.io/jobs/ |
-| [![](https://img.shields.io/github/stars/RocketChat/Rocket.Chat.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#RocketChat/Rocket.Chat) [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) | Open Source WebChat Platform | https://rocketchat.recruitee.com/ |
 | [![](https://img.shields.io/github/stars/pingcap/tidb.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#pingcap/tidb) [pingcap/tidb](https://github.com/pingcap/tidb) | A distributed HTAP database | https://pingcap.com/recruit-cn/join/ |
+| [![](https://img.shields.io/github/stars/mongodb/mongo.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#mongodb/mongo) [mongodb/mongo](https://github.com/mongodb/mongo) | The MongoDB Database | https://www.mongodb.com/careers |
 | [![](https://img.shields.io/github/stars/cockroachdb/cockroach.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#cockroachdb/cockroach)  [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach)| The open source, cloud-native SQL database | https://www.cockroachlabs.com/careers/ |
 | [![](https://img.shields.io/github/stars/odoo/odoo.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#odoo/odoo) [odoo/odoo](https://github.com/odoo/odoo) | Open Source Apps To Grow Your Business | https://www.odoo.com/jobs |
 | [![](https://img.shields.io/github/stars/commaai/openpilot.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#commaai/openpilot)  [commaai/openpilot](https://github.com/commaai/openpilot)|Open source driving agent | https://comma.ai/jobs |
@@ -60,6 +60,8 @@ Contributions are very welcome! Please
 
 _Some company names have a ⚠️️️ icon next to them. This icon means we failed to find a hiring page for this company_
 
-## Refs
+## Thanks
 
 - [open source startups in crunchbase](https://www.crunchbase.com/hub/open-source-startups)
+- [github search](https://github.com/search?utf8=%E2%9C%93&q=stars%3A%3E0&type=Repositories&ref=advsearch&l=&l=)
+- [remoteintech/remote-jobs](https://github.com/remoteintech/remote-jobs)
