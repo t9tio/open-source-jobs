@@ -3,19 +3,19 @@
 A list of Open Source projects offering jobs. For who want to work on open source and get paid.
 
 Contributions are very welcome! Please
-[submit a pull request on GitHub](https://github.com/t9tio/open-source-jobs).
+[submit a pull request on GitHub](https://github.com/t9tio/open-source-jobs/pulls).
 
 ## Companies and projects
 
 | Repositories | Description | Job Page |
 | ------------ | ----------- | -------- |
-|[arangodb/arangodb](https://github.com/arangodb/arangodb) [![](https://img.shields.io/github/stars/arangodb/arangodb.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#arangodb/arangodb) | A native multi-model database | https://www.arangodb.com/jobs/ |
-| [draios/sysdig](https://github.com/draios/sysdig) [![](https://img.shields.io/github/stars/draios/sysdig.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#draios/sysdig) | A universal system visibility tool with native support for containers | https://sysdig.com/jobs/ |
-| [confluentinc/ksql](https://github.com/confluentinc/ksql) [![](https://img.shields.io/github/stars/confluentinc/ksql.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#confluentinc/ksql) | The Streaming SQL Engine for Apache Kafka | https://www.confluent.io/careers/ |
+| [![](https://img.shields.io/github/stars/arangodb/arangodb.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#arangodb/arangodb) [arangodb/arangodb](https://github.com/arangodb/arangodb)| A native multi-model database | https://www.arangodb.com/jobs/ |
+|  [![](https://img.shields.io/github/stars/draios/sysdig.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#draios/sysdig) [draios/sysdig](https://github.com/draios/sysdig)| A universal system visibility tool with native support for containers | https://sysdig.com/jobs/ |
+| [![](https://img.shields.io/github/stars/confluentinc/ksql.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#confluentinc/ksql) [confluentinc/ksql](https://github.com/confluentinc/ksql) | The Streaming SQL Engine for Apache Kafka | https://www.confluent.io/careers/ |
 | [docker/docker-ce](https://github.com/docker/docker-ce) [![](https://img.shields.io/github/stars/docker/docker-ce.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#docker/docker-ce) | Providing a standardized packaging format for diverse applications| https://www.docker.com/careers |
 | [fossas/fossa-cli](https://github.com/fossas/fossa-cli) [![](https://img.shields.io/github/stars/fossas/fossa-cli.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#fossas/fossa-cli)| Dependency analysis for any codebase | https://fossa.com/careers |
 | [odoo/odoo](https://github.com/odoo/odoo) [![](https://img.shields.io/github/stars/odoo/odoo.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#odoo/odoo)| Open Source Apps To Grow Your Business | https://www.odoo.com/jobs |
-| [paritytech/parity-ethereum](https://github.com/paritytech/parity-ethereum) [![](https://img.shields.io/github/stars/paritytech/parity-ethereum.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#paritytech/parity-ethereum)| A Ethereum Client | https://www.parity.io/jobs |
+|  [![](https://img.shields.io/github/stars/paritytech/parity-ethereum.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#paritytech/parity-ethereum) [paritytech/parity-ethereum](https://github.com/paritytech/parity-ethereum)| A Ethereum Client | https://www.parity.io/jobs |
 | [irccloud/ios](https://github.com/irccloud/ios) [![](https://img.shields.io/github/stars/irccloud/ios.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#irccloud/ios) | Chat on IRC from anywhere | https://www.irccloud.com/jobs |
 | [pingcap/tidb](https://github.com/pingcap/tidb) [![](https://img.shields.io/github/stars/pingcap/tidb.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#pingcap/tidb) | A distributed HTAP database | https://pingcap.com/recruit-cn/join/ |
 | [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) [![](https://img.shields.io/github/stars/RocketChat/Rocket.Chat.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#RocketChat/Rocket.Chat) | Open Source WebChat Platform | https://rocketchat.recruitee.com/ |
