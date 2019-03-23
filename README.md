@@ -9,7 +9,7 @@ Contributions are very welcome! Please
 
 | Repository | Description | Job Page |
 | ------------ | ----------- | -------- |
-|  [![](https://img.shields.io/github/stars/elastic/elasticsearch.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#elastic/elasticsearch) [elastic/elasticsearch](https://github.com/elastic/elasticsearch)| Interactive, thoroughly customizable maps | https://www.elastic.co/about/careers/ |
+|  [![](https://img.shields.io/github/stars/elastic/elasticsearch.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#elastic/elasticsearch) [elastic/elasticsearch](https://github.com/elastic/elasticsearch)| Open Source, Distributed, RESTful Search Engine | https://www.elastic.co/about/careers/ |
 | [![](https://img.shields.io/github/stars/serverless/serverless.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#serverless/serverless)  [serverless/serverless](https://github.com/serverless/serverless)|Serverless Framework | https://serverless.com/company/jobs/ |
 | [![](https://img.shields.io/github/stars/Unitech/pm2.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#Unitech/pm2)  [Unitech/pm2](https://github.com/Unitech/pm2)|Node.js Production Process Manager | https://pm2.io/jobs/ |
 | [![](https://img.shields.io/github/stars/pingcap/tidb.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#pingcap/tidb) [pingcap/tidb](https://github.com/pingcap/tidb) | A distributed HTAP database | https://pingcap.com/recruit-cn/join/ |
