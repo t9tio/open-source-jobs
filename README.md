@@ -58,6 +58,9 @@ Contributions are very welcome! Please
 | [![](https://img.shields.io/github/stars/platformsh/platformsh-cli.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#platformsh/platformsh-cli)  [platformsh/platformsh-cli](https://github.com/platformsh/platformsh-cli)| Continuous Deployment Cloud Hosting | https://platform.sh/company/careers |
 | [![](https://img.shields.io/github/stars/DECENTfoundation/DECENT-Network.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#DECENTfoundation/DECENT-Network)  [DECENTfoundation/DECENT-Network](https://github.com/DECENTfoundation/DECENT-Network)| Blockchain You Can Easily Build On | https://decent.ch/careers/ |
 | [![](https://img.shields.io/github/stars/vizorvr/patches.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#vizorvr/patches)  [vizorvr/patches](https://github.com/vizorvr/patches)|A visual programming editor for building WebVR and WebGL experiences| https://site.vizor.io/jobs |
+|  [![](https://img.shields.io/github/stars/jetbrains/kotlin.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#jetbrains/kotlin) [jetbrains/kotlin](https://github.com/jetbrains/kotlin)| Open Source, Static typed multiplatform programming langauge | https://www.jetbrains.com/careers/jobs/ |
+|  [![](https://img.shields.io/github/stars/jetbrains/intellij-community.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#jetbrains/intellij-community) [jetbrains/intellij-community](https://github.com/jetbrains/intellij-community)| Open Source, The Java IDE for Professional Developers | https://www.jetbrains.com/careers/jobs/ |
+
 
 ## Contributors
 
