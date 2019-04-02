@@ -1,5 +1,7 @@
 # open-source-jobs
 
+[![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/t9tio)
+
 A list of Open Source projects offering jobs. For who want to work on open source and get paid.
 
 Contributions are very welcome! Please
