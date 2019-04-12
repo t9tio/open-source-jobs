@@ -1,6 +1,6 @@
 # open-source-jobs
 
-[![Join us](https://badgen.net/badge/Join%20the%20community/Get%20in%20touch/green)](https://t9t.io/#contact)
+[![Join us](https://badgen.net/badge/Join%20the%20community%20of%20t9t.io/Get%20in%20touch/green)](https://t9t.io/#contact)
 
 A list of Open Source projects offering jobs. For who want to work on open source and get paid.
 
