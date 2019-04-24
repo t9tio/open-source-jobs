@@ -1,0 +1,15 @@
+.has-bg-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.72)), url(https://raw.githubusercontent.com/timqian/images/master/header2.jpeg);
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scaleX(-1);
+}
+
+.has-bg-img > * {
+  transform: scaleX(-1); 
+}
+
+.company-ico {
+  display: inline-block;
+}

@@ -1,0 +1,46 @@
+{
+  "name": "open-source-jobs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sf": "parcel frontend/index.html --out-dir public",
+    "sb": "nodemon backend/index.js --watch backend/",
+    "start": "NODE_ENV=production && node backend/index.js",
+    "initDbOnAws": "NODE_ENV=production && node backend/db/initDb.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devf": "next",
+    "buildf": "next build",
+    "startf": "next start",
+    "lint": "./node_modules/.bin/eslint ./backend ./pages"
+  },
+  "keywords": [],
+  "author": "timqian",
+  "license": "GPLv3",
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
+  },
+  "dependencies": {
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.11",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "@zeit/next-sass": "^1.0.1",
+    "@zeit/next-css": "^1.0.1",
+    "next": "^8.0.5-canary.35",
+    "aws-sdk": "^2.437.0",
+    "body-parser": "^1.18.3",
+    "bulma": "^0.7.4",
+    "bulma-tooltip": "^2.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "passport": "^0.4.0",
+    "passport-github": "^1.1.0",
+    "prop-types": "^15.7.2"
+  }
+}

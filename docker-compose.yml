@@ -1,0 +1,47 @@
+version: "3"
+services:
+  dynamodb:
+    image: amazon/dynamodb-local
+    ports:
+      - "8000:8000"
+
+  # Undetermined: use node_modules inside docker or outside docker? it is a question https://stackoverflow.com/a/38601156/4674834
+  backend:
+    build:
+      context: ./
+      dockerfile: ./dockerfile
+    image: img
+    ports:
+      - "3000:3000"
+    depends_on:
+      - "dynamodb"
+    working_dir: /code
+    environment:
+      NODE_ENV: docker
+    volumes:
+      - .:/code
+    command: sh -c "node /code/backend/db/removeDb.js && node /code/backend/db/initDb.js && nodemon /code/backend/index.js --ignore test/"
+ 
+  dbGUI:
+    image: img
+    ports:
+      - "9000:9000"
+    depends_on:
+      - "dynamodb"
+    environment:
+      DYNAMO_ENDPOINT: http://dynamodb:8000
+      AWS_ACCESS_KEY_ID: local
+      AWS_SECRET_ACCESS_KEY: local
+      AWS_REGION: us-east-1
+    command: dynamodb-admin -p 9000
+
+  frontend:
+    image: img
+    ports:
+      - "1234:1234"
+    depends_on:
+      - backend
+    working_dir: /code
+    volumes:
+      - .:/code
+    command: parcel /code/frontend/index.html
