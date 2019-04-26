@@ -1,5 +1,6 @@
-node_modules
-dist
-.cache
-.next
+/node_modules
+/dist
+/secret.json
+/.cache
+/.next
 .DS_Store
