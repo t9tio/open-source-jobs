@@ -66,6 +66,7 @@ Contributions are very welcome! Please
 | [![](https://img.shields.io/github/stars/codecombat/codecombat.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#codecombat/codecombat) [codecombat/codecombat](https://github.com/codecombat/codecombat)| Game for learning how to code | https://codecombat.com/about#careers |
 | [gitlab](https://gitlab.com/groups/gitlab-org)| Open source software to collaborate on code | https://about.gitlab.com/jobs/ |
 | [![](https://img.shields.io/github/stars/getsentry/sentry.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#getsentry/sentry) [getsentry/sentry](https://github.com/getsentry/sentry)| Cross-platform application monitoring, with a focus on error reporting | https://sentry.io/careers/ |
+| [![](https://img.shields.io/github/stars/slic3r/Slic3r.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#slic3r/Slic3r) [slic3r/Slic3r](https://github.com/slic3r/Slic3r)| Open Source 3D printing toolbox | https://slic3r.org/blog/job-opportunities/ |
 
 
 ## Contributors
