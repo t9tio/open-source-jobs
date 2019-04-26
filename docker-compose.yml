@@ -20,7 +20,7 @@ services:
       NODE_ENV: docker
     volumes:
       - .:/code
-    command: sh -c "node /code/backend/db/removeDb.js && node /code/backend/db/initDb.js && nodemon /code/backend/index.js --ignore test/"
+    command: sh -c "nodemon /code/backend/index.js --ignore test/"
  
   dbGUI:
     image: img
@@ -35,13 +35,13 @@ services:
       AWS_REGION: us-east-1
     command: dynamodb-admin -p 9000
 
-  frontend:
-    image: img
-    ports:
-      - "1234:1234"
-    depends_on:
-      - backend
-    working_dir: /code
-    volumes:
-      - .:/code
-    command: parcel /code/frontend/index.html
+  # frontend:
+  #   image: img
+  #   ports:
+  #     - "1234:1234"
+  #   depends_on:
+  #     - backend
+  #   working_dir: /code
+  #   volumes:
+  #     - .:/code
+  #   command: parcel /code/frontend/index.html

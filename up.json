@@ -2,6 +2,9 @@
   "name": "open-opportunities",
   "profile": "timConsole",
   "regions": ["us-east-1"],
+  "hooks": {
+    "build": "npm run build"
+  },
   "error_pages": {
     "variables": {
       "support_email": "timqian92@qq.com",

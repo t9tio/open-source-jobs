@@ -1,6 +1,26 @@
-import Link from 'next/link';
+import React, { useState, useEffect } from 'react';
 
-function header({ title, description }) {
+function Header({ title, description }) {
+  const [user, setUser] = useState('');
+  const [isBurgerActive, setBugerActive] = useState(false);
+
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const userOnQuery = urlParams.get('user');
+    if (userOnQuery) {
+      window.localStorage.setItem('user', userOnQuery);
+      window.history.replaceState({}, 'Open source jobs.', '/');
+      setUser(userOnQuery);
+    } else if (window.localStorage.getItem('user')) {
+      setUser(window.localStorage.getItem('user'));
+    }
+  });
+
+  function signout() {
+    window.localStorage.removeItem('user');
+    setUser('');
+  }
+
   return (
     <div>
       <nav className="navbar is-black" role="navigation" aria-label="main navigation">
@@ -11,7 +31,42 @@ function header({ title, description }) {
             </a>
             <a className="navbar-item" href="/"><strong>Jobs</strong></a>
             <a className="navbar-item" href="/organizations"><strong>Organizations</strong></a>
+            <a
+              href
+              className={`button navbar-burger is-black ${isBurgerActive ? 'is-active' : ''}`}
+              onClick={() => setBugerActive(!isBurgerActive)}
+            >
+              <span />
+              <span />
+              <span />
+            </a>
           </div>
+          {
+            user
+              ? (
+                <div className={`navbar-menu ${isBurgerActive ? 'is-active' : ''}`}>
+                  <div className="navbar-end">
+                    <div className="navbar-item has-dropdown is-hoverable">
+                      <a href className="navbar-link">
+                        {user}
+                      </a>
+                      <div className="navbar-dropdown is-right">
+                        {/**
+                          <a href className="navbar-item">
+                            Share
+                          </a>
+                          <hr className="navbar-divider" />
+                        */}
+                        <a href className="navbar-item" onClick={() => signout()}>
+                          Sign out
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )
+              : ''
+          }
         </div>
       </nav>
 
@@ -28,37 +83,22 @@ function header({ title, description }) {
                 </h2>
               </div>
               <div className="column">
-                <button className="button is-active is-outlined is-black is-inverted tooltip" data-tooltip="Get notified of new opportunities">
-                  <i className="fab fa-github" />
-&nbsp; Sign in with GitHub
-                </button>
+                {
+                  user ? '' : (
+                    <a id="signin-btn" className="button is-active is-outlined is-black is-inverted tooltip" data-tooltip="Get notified of new opportunities" href="https://oo.t9t.io/auth/github">
+                      <i className="fab fa-github" />
+                      &nbsp; Sign in with GitHub to receive updates
+                    </a>
+                  )
+                }
               </div>
             </div>
           </div>
         </div>
-        {/** <div className="tabs is-boxed main-menu container">
-        <ul>
-          <li data-target="pane-1" id="1" className="is-active">
-            <Link href="/">
-              <a>Jobs</a>
-            </Link>
-          </li>
-          <li data-target="pane-2" id="2" >
-            <Link href="/organizations">
-              <a>Organizations</a>
-            </Link>
-          </li>
-          <li data-target="pane-0" id="0">
-            <Link href="opportunities">
-              <a>Opportunities</a>
-            </Link>
-          </li>
-        </ul>
-      </div> */}
       </section>
 
     </div>
   );
 }
 
-export default header;
+export default Header;

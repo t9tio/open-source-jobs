@@ -9,6 +9,7 @@ let awsConfig = {
   endpoint: 'http://localhost:8000',
   accessKeyId: 'local',
   secretAccessKey: 'local',
+  signatureVersion: 'v4',
 };
 
 if (process.env.NODE_ENV === 'docker') {
@@ -18,6 +19,7 @@ if (process.env.NODE_ENV === 'docker') {
     endpoint: 'http://dynamodb:8000',
     accessKeyId: 'local',
     secretAccessKey: 'local',
+    signatureVersion: 'v4',
   };
 } else if (process.env.NODE_ENV === 'production') {
   // on lambda server
@@ -25,8 +27,10 @@ if (process.env.NODE_ENV === 'docker') {
     region: 'us-east-1',
     endpoint: 'https://dynamodb.us-east-1.amazonaws.com',
     accessKeyId: secret.aws.accessKeyId,
-    secretAccessKey: secret.aws.accessKeyId,
+    secretAccessKey: secret.aws.secretAccessKey,
+    signatureVersion: 'v4',
   };
+  console.log('awsCon', awsConfig)
 }
 
 AWS.config.update(awsConfig);

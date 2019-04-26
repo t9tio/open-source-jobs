@@ -1,23 +1,23 @@
-const { dynamodb } = require('.');
+const User = require('./User');
 
-async function createTable() {
-  console.log('going to create table');
-  await dynamodb.createTable({
-    TableName: 'user',
-    KeySchema: [
-      { AttributeName: 'date', KeyType: 'HASH' }, // Partition key
-      { AttributeName: 'id', KeyType: 'RANGE' }, // Sort key
-    ],
-    AttributeDefinitions: [
-      { AttributeName: 'date', AttributeType: 'S' },
-      { AttributeName: 'id', AttributeType: 'S' },
-    ],
-    ProvisionedThroughput: {
-      ReadCapacityUnits: 10,
-      WriteCapacityUnits: 10,
-    },
-  }).promise();
-  console.log('successfully created table "user"');
+async function initDb() {
+  // try {
+  //   await User.deleteTable();
+  // } catch (error) {
+  //   console.log(error.message);
+  // }
+  // await User.createTable();
+  await User.put({
+    githubId: '1212',
+    username: 'timqian',
+    email: 'timqian92@qq.com',
+    photo: 'aa',
+  });
+  const item = await User.get({
+    githubId: '1212',
+  });
+
+  console.log(item);
 }
 
-createTable();
+initDb();

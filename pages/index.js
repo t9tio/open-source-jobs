@@ -8,6 +8,19 @@ class Index extends React.Component {
     return { jobs };
   }
 
+  componentDidMount() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const user = urlParams.get('user');
+    if (user) {
+      window.localStorage.setItem('user', user);
+      window.history.replaceState({}, 'Open source jobs.', '/');
+      // TODO: use state instead of manipulate dom directly
+      document.querySelector('#signin-btn').style.visibility = 'hidden';
+    } else if (window.localStorage.getItem('user')) {
+      document.querySelector('#signin-btn').style.visibility = 'hidden';
+    }
+  }
+
   render() {
     return (
       <div>

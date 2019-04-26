@@ -3,7 +3,9 @@
   "rules": {
     "no-console": "off",
     "indent": ["warn", 2],
-    "noplusplus": "warn"
+    "noplusplus": "warn",
+    "react/jsx-filename-extension": "off",
+    "react/react-in-jsx-scope": "off"
   },
   "env": {
     "browser": true,

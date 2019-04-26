@@ -4,6 +4,9 @@ const bodyParser = require('body-parser');
 const passport = require('passport');
 const GitHubStrategy = require('passport-github').Strategy;
 const next = require('next');
+const UserDao = require('./db/User');
+const jobs = require('./jobs.json');
+const organizations = require('./organizations.json');
 
 const dev = process.env.NODE_ENV !== 'production';
 const nextApp = next({ dev });
@@ -15,10 +18,6 @@ nextApp.prepare().then(() => {
   app.use(cors());
   app.use(bodyParser.json());
   app.use(passport.initialize());
-  // Initialize Passport and restore authentication state, if any, from the
-  // session.
-  app.use(passport.initialize());
-  app.use(passport.session());
 
   passport.use(
     new GitHubStrategy(
@@ -29,8 +28,6 @@ nextApp.prepare().then(() => {
         callbackURL: 'https://oo.t9t.io/auth/github/callback',
       },
       (accessToken, refreshToken, profile, cb) => {
-        // User.findOrCreate({ googleId: profile.id }, (err, user) => cb(err, user));
-        console.log(accessToken, refreshToken, profile);
         cb(null, profile);
       },
     ),
@@ -44,18 +41,40 @@ nextApp.prepare().then(() => {
   app.get(
     '/auth/github/callback',
     passport.authenticate('github', { failureRedirect: '/login', session: false }),
-    (req, res) => {
-    // Successful authentication, redirect home.
-    // TODO: save the user to database
-      res.redirect('/');
+    async (req, res) => {
+      /**
+       * {
+       *   id: '5512552',
+       *   displayName: 'Tim Qian',
+       *   username: 'timqian',
+       *   profileUrl: 'https://github.com/timqian',
+       *   emails: [
+       *     { value: 'timqian92@gmail.com', primary: false, verified: true },
+       *     { value: 'timqian92@qq.com', primary: true, verified: false },
+       *     { value: 'timqian@shu.edu.cn', primary: false, verified: true }
+       *   ],
+       *   photos: [{ value: 'https://avatars3.githubusercontent.com/u/5512552?v=4' }],
+       * }
+       */
+      const {
+        id, username, displayName, emails, photos,
+      } = req.user;
+      const user = await UserDao.get({ githubId: id });
+      const userToSave = {
+        githubId: id,
+        username,
+        name: displayName,
+        email: emails.filter(email => email.primary === true)[0].value,
+        photo: photos[0].value,
+      };
+      if (!user) {
+        await UserDao.put(userToSave);
+      }
+      res.redirect(`/?user=${username}`);
     },
   );
 
-  const jobs = require('./jobs.json');
-
   app.get('/', (req, res) => nextApp.render(req, res, '/index', { jobs }));
-
-  const organizations = require('./organizations.json');
 
   app.get('/organizations', (req, res) => nextApp.render(req, res, '/organizations', { organizations }));
 

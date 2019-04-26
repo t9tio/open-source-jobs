@@ -61,7 +61,7 @@ Jobs.propTypes = {
     locations: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
     techTags: PropTypes.arrayOf(PropTypes.string).isRequired,
-  })),
+  })).isRequired,
 };
 
 export default Jobs;
