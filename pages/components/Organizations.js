@@ -1,40 +1,54 @@
-import PropTypes from 'prop-types';
+import { useState } from 'react';
 import './Organizations.scss';
+import OrgCard from './OrgCard';
 
 function Organizations({ organizations }) {
+  const [search, setSearch] = useState('');
+
   const orgsCards = organizations.map(({
     organization,
     officialUrl,
     logoUrl,
     intro,
-  }) => (
-    <div className="card org-item">
-      <div className="card-content">
-        <div className="media">
-          <div className="media-left">
-            <figure className="image is-48x48">
-              <img src={logoUrl} alt="logo" />
-            </figure>
-          </div>
-          <div className="media-content">
-            <p className="title is-4">
-              <a className="org-title-link" href={officialUrl}>
-                {organization}
-              </a>
-            </p>
-            <p className="subtitle is-6">
-              <a>{intro}</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  ));
+    github,
+    email,
+    majorRepos,
+  }) => {
+    const starMark = organization + github + majorRepos.join('') + intro;
+    if (starMark.toUpperCase().indexOf(search.toUpperCase()) > -1) {
+      return (
+        <OrgCard org={{
+          organization,
+          officialUrl,
+          logoUrl,
+          intro,
+          github,
+          email,
+          majorRepos,
+        }}
+        />
+      );
+    }
+    return '';
+  });
 
   return (
     <div className="section">
       <div className="container">
-        {orgsCards}
+        <div className="org-filter">
+          <span className="title is-4">Search: &nbsp; </span>
+          <input
+            className="org-search-input input is-small"
+            placeHolder="name, projects, descriptions, etc"
+            onChange={() => {
+              setSearch(document.querySelector('.org-search-input').value);
+            }}
+          />
+        </div>
+
+        <button type="button" className="post-org-button button is-danger">Add your org</button>
+
+        <div className="container">{orgsCards}</div>
       </div>
     </div>
   );

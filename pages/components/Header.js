@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function Header({ title, description }) {
+function Header({ title, description, logoUrl }) {
   const [user, setUser] = useState('');
   const [isBurgerActive, setBugerActive] = useState(false);
 
@@ -9,7 +9,7 @@ function Header({ title, description }) {
     const userOnQuery = urlParams.get('user');
     if (userOnQuery) {
       window.localStorage.setItem('user', userOnQuery);
-      window.history.replaceState({}, 'Open source jobs.', '/');
+      window.history.replaceState({}, '', '/');
       setUser(userOnQuery);
     } else if (window.localStorage.getItem('user')) {
       setUser(window.localStorage.getItem('user'));
@@ -29,17 +29,22 @@ function Header({ title, description }) {
             <a className="navbar-item" href="https://t9t.io">
               <img src="https://t9t.io/favicon.ico" alt="favicon" width="28" height="28" />
             </a>
-            <a className="navbar-item" href="/"><strong>Jobs</strong></a>
+            <a className="navbar-item" href="/help-wanted"><strong>Help wanted</strong></a>
             <a className="navbar-item" href="/organizations"><strong>Organizations</strong></a>
-            <a
-              href
-              className={`button navbar-burger is-black ${isBurgerActive ? 'is-active' : ''}`}
-              onClick={() => setBugerActive(!isBurgerActive)}
-            >
-              <span />
-              <span />
-              <span />
-            </a>
+            <a className="navbar-item" href="/"><strong>Jobs</strong></a>
+            {
+              user ? (
+                <a
+                  href
+                  className={`button navbar-burger is-black ${isBurgerActive ? 'is-active' : ''}`}
+                  onClick={() => setBugerActive(!isBurgerActive)}
+                >
+                  <span />
+                  <span />
+                  <span />
+                </a>
+              ) : ''
+            }
           </div>
           {
             user
@@ -75,7 +80,17 @@ function Header({ title, description }) {
           <div className="container">
             <div className="columns">
               <div className="column is-two-thirds">
-                <h1 className="title ">
+                <h1 className="title">
+                  {
+                    logoUrl
+                      ? (
+                        <span>
+                          <img src={logoUrl} alt="favicon" width="20" height="20" />
+                          &nbsp;
+                        </span>
+                      )
+                      : ''
+                  }
                   {title}
                 </h1>
                 <h2 className="subtitle">
@@ -87,7 +102,7 @@ function Header({ title, description }) {
                   user ? '' : (
                     <a id="signin-btn" className="button is-active is-outlined is-black is-inverted tooltip" data-tooltip="Get notified of new opportunities" href="https://oo.t9t.io/auth/github">
                       <i className="fab fa-github" />
-                      &nbsp; Sign in with GitHub to receive updates
+                      &nbsp; Sign in with GitHub
                     </a>
                   )
                 }
@@ -95,8 +110,18 @@ function Header({ title, description }) {
             </div>
           </div>
         </div>
+        {/**
+          <div className="tabs is-boxed main-menu container">
+          <ul>
+            <li data-target="pane-1" id="1" className="is-active">
+              <a>Jobs</a>
+            </li>
+            <li data-target="pane-2" id="2">
+              <a>Post a job</a>
+            </li>
+          </ul>
+          </div> */}
       </section>
-
     </div>
   );
 }

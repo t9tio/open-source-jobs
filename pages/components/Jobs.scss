@@ -1,5 +1,5 @@
 .job-item {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .job-title-link {
@@ -19,3 +19,50 @@
   margin-right: 3px;
 }
 
+.job-filter {
+  margin-top: -1em;
+  margin-bottom: 1em;
+}
+
+.tag-input-wrapper {
+  display: inline-block;
+  position: relative;
+
+  &:after {
+    content: '↵';
+    position: absolute;
+    right: 6px;
+    top: 4px;
+    z-index: 2;
+    color: gray;
+    height: 3px;
+  }
+
+  input {
+    display: inline;
+    width: 120px;
+    &::-webkit-calendar-picker-indicator {
+      display: none;
+    }
+  }
+}
+
+.post-job-button {
+  position: fixed;
+  z-index:2;
+  right: 10px;
+  bottom: 10px;
+}
+
+.location-tag {
+  // font-style: oblique;
+  border: 1px dotted #999;
+}
+
+// .search-tag-container {
+//   margin-top: -15px;
+// }
+
+.job-cards-container {
+  padding-top: 1em;
+}

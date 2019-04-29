@@ -1,8 +1,16 @@
-.org-item {
-  margin-bottom: 8px;
+.org-filter {
+  margin-top: -1em;
+  margin-bottom: 2em;
+
+  input {
+    display: inline;
+    width: 200px;
+  }
 }
 
-.org-title-link {
-  display: inline-block;
-  margin-right: 10px;
+.post-org-button {
+  position: fixed;
+  z-index:2;
+  right: 10px;
+  bottom: 10px
 }

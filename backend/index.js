@@ -78,7 +78,17 @@ nextApp.prepare().then(() => {
 
   app.get('/organizations', (req, res) => nextApp.render(req, res, '/organizations', { organizations }));
 
-  app.get('/post/:slug', (req, res) => nextApp.render(req, res, '/post', { slug: req.params.slug }));
+  app.get('/organization/:organization', (req, res) => {
+    const paramOrg = req.params.organization;
+    const orgInDb = organizations.filter(org => org.organization === paramOrg)[0];
+    if (!orgInDb) {
+      res.status(404).json('Organization not fond');
+    } else {
+      nextApp.render(req, res, '/organization', { organization: orgInDb });
+    }
+  });
+
+  app.get('/help-wanted', (req, res) => nextApp.render(req, res, '/help-wanted'));
 
   app.get('*', (req, res) => handle(req, res));
 
