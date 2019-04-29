@@ -1,6 +1,6 @@
 import './Jobs.scss';
 import PropTypes from 'prop-types';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import JobCard from './JobCard';
 
 function arrAIncludesArrB(a, b) {
@@ -23,9 +23,58 @@ function getAllLoTags(jobs) {
 function Jobs({ jobs }) {
   const [loSearchArr, setLoSearchArr] = useState([]);
   const [techSearchArr, setTechSearchArr] = useState([]);
+  const [loTagInput, setLoTagInput] = useState('');
+  const [techTagInput, setTechTagInput] = useState('');
 
   const allLoTags = getAllLoTags(jobs);
   const allTechTags = getAllTechTags(jobs);
+
+  // fire an event on clicking data list option list by checking event
+  // react's event synthetic so I have to listen it the old way
+  // ref: https://stackoverflow.com/a/48328172/4674834
+  useEffect(() => {
+    const techTagInputDiv = document.querySelector('.tech-tag-input');
+    const loTagInputDiv = document.querySelector('.lo-tag-input');
+
+    const listener = (e) => {
+      const techTagInputValue = document.querySelector('.tech-tag-input').value;
+      if (techTagInputValue) {
+        // won't work with react's event object
+        const isInputEvent = (Object.prototype.toString.call(e).indexOf('InputEvent') > -1);
+        if (!isInputEvent) {
+          console.log('via selection: checking input', techTagInputValue);
+          if (allTechTags.includes(techTagInputValue) && !techSearchArr.includes(techTagInputValue)) {
+            setTechSearchArr(techSearchArr.concat([techTagInputValue]));
+          }
+          setTechTagInput('');
+        }
+      }
+    };
+
+    const listener2 = (e) => {
+      const loTagInputValue = document.querySelector('.lo-tag-input').value;
+      if (loTagInputValue) {
+        // won't work with react's event object
+        const isInputEvent = (Object.prototype.toString.call(e).indexOf('InputEvent') > -1);
+        if (!isInputEvent) {
+          console.log('via selection: checking input', loTagInputValue);
+          if (allLoTags.includes(loTagInputValue) && !loSearchArr.includes(loTagInputValue)) {
+            setLoSearchArr(loSearchArr.concat([loTagInputValue]));
+          }
+          setLoTagInput('');
+        }
+      }
+    };
+
+    techTagInputDiv.addEventListener('input', listener);
+    loTagInputDiv.addEventListener('input', listener2);
+
+    return () => {
+      techTagInputDiv.removeEventListener('input', listener);
+      loTagInputDiv.removeEventListener('input', listener2);
+    };
+  });
+
 
   const jobsCards = jobs.map(({
     organization,
@@ -57,32 +106,34 @@ function Jobs({ jobs }) {
     return '';
   });
 
-  function techTagKeyUp(e) {
+  /**
+   * @param {String} tagType tech or lo
+   */
+  function onTagInputKeyUp(e, tagType) {
+    if (tagType !== 'lo' && tagType !== 'tech') throw new Error('invald tag type');
     if (e.keyCode === 13) {
-      const input = document.querySelector('.tech-tag-input').value;
-      if (allTechTags.includes(input) && !techSearchArr.includes(input)) {
-        setTechSearchArr(techSearchArr.concat([input]));
-        document.querySelector('.tech-tag-input').value = '';
+      if (tagType === 'lo' ) {
+        if (allLoTags.includes(loTagInput) && !loSearchArr.includes(loTagInput)) {
+          setLoSearchArr(loSearchArr.concat([loTagInput]));
+        }
+        setLoTagInput('');
+      }
+      if (tagType === 'tech') {
+        if (allLoTags.includes(techTagInput) && !loSearchArr.includes(techTagInput)) {
+          setLoSearchArr(loSearchArr.concat([techTagInput]));
+        }
+        setTechTagInput('');
       }
     }
   }
 
-  function loTagKeyUp(e) {
-    if (e.keyCode === 13) {
-      const input = document.querySelector('.lo-tag-input').value;
-      if (allLoTags.includes(input) && !loSearchArr.includes(input)) {
-        setLoSearchArr(loSearchArr.concat([input]));
-        document.querySelector('.lo-tag-input').value = '';
-      }
-    }
-  }
-
-  function removeLoTag(tag) {
-    setLoSearchArr(loSearchArr.filter(loTag => loTag !== tag));
-  }
-
-  function removeTechTag(tag) {
-    setTechSearchArr(techSearchArr.filter(techTag => techTag !== tag));
+  /**
+   * @param {String} tagType tech or lo
+   */
+  function removeTag(tag, tagType) {
+    if (tagType !== 'lo' && tagType !== 'tech') throw new Error('invald tag type');
+    if (tagType === 'lo') setLoSearchArr(loSearchArr.filter(loTag => loTag !== tag));
+    if (tagType === 'tech') setTechSearchArr(techSearchArr.filter(techTag => techTag !== tag));
   }
 
   return (
@@ -91,11 +142,11 @@ function Jobs({ jobs }) {
         <div className="job-filter">
           <span className="title is-4">Filters: &nbsp; </span>
           <div className="tag-input-wrapper">
-            <input list="lo-tag-list" name="lo-tag-list" className="lo-tag-input input is-small" placeHolder="location" onKeyUp={e => loTagKeyUp(e)} />
+            <input list="lo-tag-list" name="lo-tag-list" className="lo-tag-input input is-small" placeHolder="location" onKeyUp={e => onTagInputKeyUp(e, 'lo')} value={loTagInput} onChange={e => setLoTagInput(e.target.value)} />
           </div>
               &nbsp; &nbsp;
           <div className="tag-input-wrapper">
-            <input list="tech-tag-list" name="tech-tag-list" className="tech-tag-input input is-small" placeHolder="keyword" onKeyUp={e => techTagKeyUp(e)} />
+            <input list="tech-tag-list" name="tech-tag-list" autoComplete className="tech-tag-input input is-small" placeHolder="keyword" onKeyUp={e => onTagInputKeyUp(e, 'tech')} value={techTagInput} onChange={e => setTechTagInput(e.target.value)} />
           </div>
           <datalist id="lo-tag-list">
             {
@@ -113,7 +164,7 @@ function Jobs({ jobs }) {
             loSearchArr.map(tag => (
               <span className="tag location-tag">
                 {tag}
-                <button type="button" className="delete is-small" onClick={() => removeLoTag(tag)} />
+                <button type="button" className="delete is-small" onClick={() => removeTag(tag, 'lo')} />
               </span>
             ))
           }
@@ -121,7 +172,7 @@ function Jobs({ jobs }) {
             techSearchArr.map(tag => (
               <span className="tag is-rounded">
                 {tag}
-                <button type="button" className="delete is-small" onClick={() => removeTechTag(tag)} />
+                <button type="button" className="delete is-small" onClick={() => removeTag(tag, 'tech')} />
               </span>
             ))
           }
