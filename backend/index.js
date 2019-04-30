@@ -70,7 +70,7 @@ nextApp.prepare().then(() => {
       if (!user) {
         await UserDao.put(userToSave);
       }
-      res.redirect(`/?user=${username}`);
+      res.redirect(`/jobs?user=${username}`);
     },
   );
 

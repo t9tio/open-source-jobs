@@ -20,7 +20,7 @@ function JobCard({
           </div>
           <div className="media-content">
             <p className="title is-5">
-              <a className="job-title-link" href={jobUrl}>
+              <a className="job-title-link" href={jobUrl} target="_blank" rel="noopener noreferrer">
                 {jobTitle}
                 <tag className="tag is-white"><i className="far fa-share-square" /></tag>
               </a>
