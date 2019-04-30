@@ -9,7 +9,7 @@ function Header({ title, description, logoUrl }) {
     const userOnQuery = urlParams.get('user');
     if (userOnQuery) {
       window.localStorage.setItem('user', userOnQuery);
-      window.history.replaceState({}, '', '/');
+      window.history.replaceState({}, '', '/jobs');
       setUser(userOnQuery);
     } else if (window.localStorage.getItem('user')) {
       setUser(window.localStorage.getItem('user'));
