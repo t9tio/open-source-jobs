@@ -74,7 +74,9 @@ nextApp.prepare().then(() => {
     },
   );
 
-  app.get('/', (req, res) => nextApp.render(req, res, '/index', { jobs }));
+  app.get('/', (req, res) => res.redirect('https://github.com/t9tio/open-source-jobs'));
+
+  app.get('/jobs', (req, res) => nextApp.render(req, res, '/index', { jobs }));
 
   app.get('/organizations', (req, res) => nextApp.render(req, res, '/organizations', { organizations }));
 

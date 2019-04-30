@@ -112,7 +112,7 @@ function Jobs({ jobs }) {
   function onTagInputKeyUp(e, tagType) {
     if (tagType !== 'lo' && tagType !== 'tech') throw new Error('invald tag type');
     if (e.keyCode === 13) {
-      if (tagType === 'lo' ) {
+      if (tagType === 'lo') {
         if (allLoTags.includes(loTagInput) && !loSearchArr.includes(loTagInput)) {
           setLoSearchArr(loSearchArr.concat([loTagInput]));
         }
@@ -167,6 +167,9 @@ function Jobs({ jobs }) {
                 <button type="button" className="delete is-small" onClick={() => removeTag(tag, 'lo')} />
               </span>
             ))
+            // .reduce((pre, cur) => {
+              
+            // }, [<span>)</span>])
           }
           {
             techSearchArr.map(tag => (
@@ -181,7 +184,7 @@ function Jobs({ jobs }) {
           {jobsCards}
         </div>
 
-        <button type="button" className="post-job-button button is-danger">Post a job $0</button>
+        <a href="https://github.com/t9tio/open-source-jobs/issues/new?assignees=&labels=&template=post-a-new-job.md&title=%5BJob+Post%5D%3A" className="post-job-button button is-danger">Post a job $0</a>
       </div>
     </div>
   );

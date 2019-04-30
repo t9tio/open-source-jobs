@@ -46,7 +46,7 @@ function Organizations({ organizations }) {
           />
         </div>
 
-        <button type="button" className="post-org-button button is-danger">Add your org</button>
+        <a href="https://github.com/t9tio/open-source-jobs/issues/new?assignees=&labels=&template=add-a-new-organization.md&title=%5BOrg+Post%5D%3A" type="button" className="post-org-button button is-danger">Add your org</a>
 
         <div className="container">{orgsCards}</div>
       </div>

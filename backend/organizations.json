@@ -6,9 +6,12 @@
     "logoUrl": "https://t9t.io/favicon.ico",
     "jobUrl": "",
     "intro": "Building transparent products",
-    "majorRepos": ["t9tio/tomato-pie", "t9tio/open-source-jobs"],
+    "majorRepos": [
+      "t9tio/tomato-pie",
+      "t9tio/open-source-jobs"
+    ],
     "email": "timqian92@qq.com",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "npm",
@@ -17,9 +20,11 @@
     "logoUrl": "https://avatars0.githubusercontent.com/u/6078720?s=200&v=4",
     "jobUrl": "https://www.npmjs.com/jobs",
     "intro": "A package manager for JavaScript",
-    "majorRepos": ["npm/cli"],
+    "majorRepos": [
+      "npm/cli"
+    ],
     "email": "npm@npmjs.com",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "elastic",
@@ -28,9 +33,11 @@
     "logoUrl": "https://avatars0.githubusercontent.com/u/6764390?s=200&v=4",
     "jobUrl": "https://www.elastic.co/about/careers/",
     "intro": "Building Open Source, Distributed, RESTful Search Engine",
-    "majorRepos": ["elastic/elasticsearch"],
+    "majorRepos": [
+      "elastic/elasticsearch"
+    ],
     "email": "info@elastic.co",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Docker",
@@ -39,9 +46,11 @@
     "logoUrl": "https://avatars0.githubusercontent.com/u/5429470?s=200&v=4",
     "jobUrl": "https://www.docker.com/careers",
     "intro": "Providing a standardized packaging format for diverse applications",
-    "majorRepos": ["docker/docker-ce"],
+    "majorRepos": [
+      "docker/docker-ce"
+    ],
     "email": "info@docker.com",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Serverless",
@@ -50,9 +59,11 @@
     "logoUrl": "https://avatars1.githubusercontent.com/u/13742415?s=200&v=4",
     "jobUrl": "https://serverless.com/company/jobs/",
     "intro": "Serverless Framework",
-    "majorRepos": ["serverless/serverless"],
+    "majorRepos": [
+      "serverless/serverless"
+    ],
     "email": "hello@serverless.com",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Keymetrics",
@@ -61,9 +72,11 @@
     "logoUrl": "https://avatars3.githubusercontent.com/u/7799069?s=200&v=4",
     "jobUrl": "https://pm2.io/jobs/",
     "intro": "Node.js Production Process Manager",
-    "majorRepos": ["Unitech/pm2"],
+    "majorRepos": [
+      "Unitech/pm2"
+    ],
     "email": "contact@keymetrics.io",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Grafana Labs",
@@ -72,9 +85,11 @@
     "logoUrl": "https://avatars0.githubusercontent.com/u/7195757?s=200&v=4",
     "jobUrl": "https://grafana-labs.workable.com/",
     "intro": "The open platform for beautiful analytics and monitoring",
-    "majorRepos": ["grafana/grafana"],
+    "majorRepos": [
+      "grafana/grafana"
+    ],
     "email": " hello@grafana.com",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "PingCAP",
@@ -83,9 +98,11 @@
     "logoUrl": "https://avatars3.githubusercontent.com/u/11855343?s=200&v=4",
     "jobUrl": "https://pingcap.com/recruit-cn/join/",
     "intro": "Tackling MySQL Scalability with TiDB",
-    "majorRepos": ["pingcap/tidb"],
+    "majorRepos": [
+      "pingcap/tidb"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "mongodb",
@@ -94,9 +111,11 @@
     "logoUrl": "https://avatars1.githubusercontent.com/u/45120?s=200&v=4",
     "jobUrl": "https://www.mongodb.com/careers",
     "intro": "The MongoDB Database",
-    "majorRepos": ["mongodb/mongo"],
+    "majorRepos": [
+      "mongodb/mongo"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "CockroachDB",
@@ -105,9 +124,11 @@
     "logoUrl": "https://avatars3.githubusercontent.com/u/6748139?s=200&v=4",
     "jobUrl": "https://www.cockroachlabs.com/careers/",
     "intro": "the scalable, survivable, SQL database",
-    "majorRepos": ["cockroachdb/cockroach"],
+    "majorRepos": [
+      "cockroachdb/cockroach"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Jenkins",
@@ -116,9 +137,11 @@
     "logoUrl": "https://avatars0.githubusercontent.com/u/107424?s=200&v=4",
     "jobUrl": "https://www.cloudbees.com/careers/",
     "intro": "Open Source Automation Server",
-    "majorRepos": ["jenkinsci/jenkins"],
+    "majorRepos": [
+      "jenkinsci/jenkins"
+    ],
     "email": "jenkinsci-users@googlegroups.com",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "JetBrains",
@@ -127,9 +150,12 @@
     "logoUrl": "https://avatars0.githubusercontent.com/u/878437?s=200&v=4",
     "jobUrl": "https://www.jetbrains.com/careers/jobs/",
     "intro": "JetBrains open source projects.",
-    "majorRepos": ["jetbrains/kotlin", "JetBrains/intellij-community"],
+    "majorRepos": [
+      "jetbrains/kotlin",
+      "JetBrains/intellij-community"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Odoo",
@@ -138,9 +164,11 @@
     "logoUrl": "https://avatars0.githubusercontent.com/u/6368483?s=200&v=4",
     "jobUrl": "https://www.odoo.com/jobs",
     "intro": "Open Source Apps To Grow Your Business",
-    "majorRepos": ["odoo/odoo"],
+    "majorRepos": [
+      "odoo/odoo"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Arduino",
@@ -149,9 +177,11 @@
     "logoUrl": "https://avatars2.githubusercontent.com/u/379109?s=200&v=4",
     "jobUrl": "https://www.arduino.cc/en/Careers/Home",
     "intro": "open-source electronics prototyping platform",
-    "majorRepos": ["arduino/Arduino"],
+    "majorRepos": [
+      "arduino/Arduino"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "comma.ai",
@@ -160,9 +190,11 @@
     "logoUrl": "https://avatars2.githubusercontent.com/u/16128714?s=200&v=4",
     "jobUrl": "https://comma.ai/jobs",
     "intro": "Open source driving agent",
-    "majorRepos": ["commaai/openpilot"],
+    "majorRepos": [
+      "commaai/openpilot"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "saltstack",
@@ -171,9 +203,11 @@
     "logoUrl": "https://avatars2.githubusercontent.com/u/1147473?s=200&v=4",
     "jobUrl": "https://www.saltstack.com/company/careers/",
     "intro": "Make software for complex systems management at scale",
-    "majorRepos": ["saltstack/salt"],
+    "majorRepos": [
+      "saltstack/salt"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Dgraph",
@@ -182,9 +216,11 @@
     "logoUrl": "https://avatars1.githubusercontent.com/u/13958706?s=200&v=4",
     "jobUrl": "https://dgraph.io/career",
     "intro": "Scalable, Distributed, Low Latency Graph Database",
-    "majorRepos": ["dgraph-io/dgraph"],
+    "majorRepos": [
+      "dgraph-io/dgraph"
+    ],
     "email": "contact@dgraph.io",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Gradle",
@@ -193,9 +229,11 @@
     "logoUrl": "https://avatars3.githubusercontent.com/u/124156?s=200&v=4",
     "jobUrl": "https://gradle.com/careers/",
     "intro": "Adaptable, fast automation for all",
-    "majorRepos": ["gradle/gradle"],
+    "majorRepos": [
+      "gradle/gradle"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Reaction Commerce",
@@ -204,9 +242,11 @@
     "logoUrl": "https://avatars1.githubusercontent.com/u/5605462?s=200&v=4",
     "jobUrl": "https://www.reactioncommerce.com/careers",
     "intro": "Customizable, real-time reactive, JavaScript commerce platform",
-    "majorRepos": ["reactioncommerce/reaction"],
+    "majorRepos": [
+      "reactioncommerce/reaction"
+    ],
     "email": "hello@reactioncommerce.com",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "ArangoDB",
@@ -215,9 +255,11 @@
     "logoUrl": "https://avatars1.githubusercontent.com/u/5547849?s=200&v=4",
     "jobUrl": "https://www.arangodb.com/jobs/",
     "intro": "A native multi-model database",
-    "majorRepos": ["arangodb/arangodb"],
+    "majorRepos": [
+      "arangodb/arangodb"
+    ],
     "email": "hackers@arangodb.com",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Hasura",
@@ -226,9 +268,11 @@
     "logoUrl": "https://avatars1.githubusercontent.com/u/13966722?s=200&v=4",
     "jobUrl": "https://hasura.io/careers",
     "intro": "Instant Realtime GraphQL on Postgres",
-    "majorRepos": ["hasura/graphql-engine"],
+    "majorRepos": [
+      "hasura/graphql-engine"
+    ],
     "email": "build@hasura.io",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Sysdig",
@@ -237,9 +281,11 @@
     "logoUrl": "https://avatars2.githubusercontent.com/u/5068817?s=200&v=4",
     "jobUrl": "https://sysdig.com/jobs/",
     "intro": "Sysdig - Open Source Linux Troubleshooting",
-    "majorRepos": ["draios/sysdig"],
+    "majorRepos": [
+      "draios/sysdig"
+    ],
     "email": "info@sysdig.com",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "NodeSource",
@@ -248,9 +294,11 @@
     "logoUrl": "https://avatars3.githubusercontent.com/u/6759417?s=200&v=4",
     "jobUrl": "https://nodesource.com/careers",
     "intro": "Low-impact monitoring for mission-critical Node.js applications",
-    "majorRepos": ["nodesource/distributions"],
+    "majorRepos": [
+      "nodesource/distributions"
+    ],
     "email": "info@nodesource.com",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Parity",
@@ -259,20 +307,25 @@
     "logoUrl": "https://avatars0.githubusercontent.com/u/14176906?s=200&v=4",
     "jobUrl": "https://www.parity.io/jobs",
     "intro": "Solutions for a trust-free world",
-    "majorRepos": ["paritytech/parity-ethereum", "paritytech/substrate"],
+    "majorRepos": [
+      "paritytech/parity-ethereum",
+      "paritytech/substrate"
+    ],
     "email": "admin@parity.io",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Rasa",
     "github": "RasaHQ",
     "officialUrl": "https://rasa.com/",
     "logoUrl": "https://avatars0.githubusercontent.com/u/21214473?s=200&v=4",
-    "jobUrl": "https://angel.co/rasahq/jobs",
+    "jobUrl": "https://rasa-jobs.personio.de/",
     "intro": "Natural language understanding",
-    "majorRepos": ["RasaHQ/rasa_nlu"],
+    "majorRepos": [
+      "RasaHQ/rasa_nlu"
+    ],
     "email": "hi@rasa.com",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Mapbox",
@@ -281,9 +334,11 @@
     "logoUrl": "https://avatars0.githubusercontent.com/u/600935?s=200&v=4",
     "jobUrl": "https://www.mapbox.com/careers/",
     "intro": "JavaScript library for interactive, customizable vector maps on the web",
-    "majorRepos": ["mapbox/mapbox-gl-js"],
+    "majorRepos": [
+      "mapbox/mapbox-gl-js"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "PrestaShop",
@@ -292,9 +347,11 @@
     "logoUrl": "https://avatars1.githubusercontent.com/u/2815696?s=200&v=4",
     "jobUrl": "http://www.jobs.net/jobs/prestashop/en-gb/",
     "intro": "A fully scalable open source ecommerce solution",
-    "majorRepos": ["PrestaShop/PrestaShop"],
+    "majorRepos": [
+      "PrestaShop/PrestaShop"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "SonarSource",
@@ -303,9 +360,11 @@
     "logoUrl": "https://avatars1.githubusercontent.com/u/545988?s=200&v=4",
     "jobUrl": "http://sonarsource.com/company/jobs/",
     "intro": "The leading Open Source product for continuous code quality",
-    "majorRepos": ["SonarSource/SonarQube"],
+    "majorRepos": [
+      "SonarSource/SonarQube"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Zeek",
@@ -314,9 +373,11 @@
     "logoUrl": "https://avatars2.githubusercontent.com/u/1194067?s=200&v=4",
     "jobUrl": "https://corelight.com/company/careers",
     "intro": "Zeek (formerly Bro) is a powerful network analysis framework.",
-    "majorRepos": ["zeek/zeek"],
+    "majorRepos": [
+      "zeek/zeek"
+    ],
     "email": "info@zeek.org",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "hazelcast",
@@ -325,9 +386,11 @@
     "logoUrl": "https://avatars3.githubusercontent.com/u/1453152?s=200&v=4",
     "jobUrl": "https://hazelcast.com/company/careers/",
     "intro": "In-Memory Data Grid",
-    "majorRepos": ["hazelcast/hazelcast"],
+    "majorRepos": [
+      "hazelcast/hazelcast"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "rundeck",
@@ -336,9 +399,11 @@
     "logoUrl": "https://avatars0.githubusercontent.com/u/2205640?s=200&v=4",
     "jobUrl": "https://www.rundeck.com/careers",
     "intro": "An open source automation service",
-    "majorRepos": ["rundeck/rundeck"],
+    "majorRepos": [
+      "rundeck/rundeck"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "confluentinc",
@@ -347,9 +412,11 @@
     "logoUrl": "https://avatars2.githubusercontent.com/u/9439498?s=200&v=4",
     "jobUrl": "https://www.confluent.io/careers/",
     "intro": "Real-time streams powered by Apache Kafka®",
-    "majorRepos": ["confluentinc/ksql"],
+    "majorRepos": [
+      "confluentinc/ksql"
+    ],
     "email": "contact@confluent.io",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "bcoin",
@@ -358,9 +425,11 @@
     "logoUrl": "https://avatars1.githubusercontent.com/u/17676391?s=200&v=4",
     "jobUrl": "https://angel.co/purse/jobs/90956-open-source-protocol-developer-bcoin",
     "intro": "Javascript bitcoin library for node.js and browsers",
-    "majorRepos": ["bcoin-org/bcoin"],
+    "majorRepos": [
+      "bcoin-org/bcoin"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "CARTO",
@@ -369,9 +438,11 @@
     "logoUrl": "https://avatars3.githubusercontent.com/u/1799254?s=200&v=4",
     "jobUrl": "https://carto.com/careers/",
     "intro": "Location Intelligence & Data Visualization tool for the cloud",
-    "majorRepos": ["CartoDB/cartodb"],
+    "majorRepos": [
+      "CartoDB/cartodb"
+    ],
     "email": "support@cartodb.com",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "datawire.io",
@@ -380,9 +451,11 @@
     "logoUrl": "https://avatars3.githubusercontent.com/u/9270257?s=200&v=4",
     "jobUrl": "https://www.datawire.io/careers/",
     "intro": "Kubernetes-native API gateway for microservices",
-    "majorRepos": ["datawire/ambassador"],
+    "majorRepos": [
+      "datawire/ambassador"
+    ],
     "email": "hello@datawire.io",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Crate.io",
@@ -391,9 +464,11 @@
     "logoUrl": "https://avatars3.githubusercontent.com/u/4048232?s=200&v=4",
     "jobUrl": "https://crate.io/jobs/",
     "intro": "Distributed SQL database",
-    "majorRepos": ["crate/crate"],
+    "majorRepos": [
+      "crate/crate"
+    ],
     "email": "office@crate.io",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "pimcore",
@@ -402,9 +477,11 @@
     "logoUrl": "https://avatars2.githubusercontent.com/u/686745?s=200&v=4",
     "jobUrl": "https://pimcore.com/en/about/careers",
     "intro": "Creator of the Content & Product Management Framework Pimcore",
-    "majorRepos": ["pimcore/pimcore"],
+    "majorRepos": [
+      "pimcore/pimcore"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "YugaByte",
@@ -413,9 +490,11 @@
     "logoUrl": "https://avatars0.githubusercontent.com/u/17074854?s=200&v=4",
     "jobUrl": "https://hire.withgoogle.com/public/jobs/yugabyte",
     "intro": " open source, high-performance SQL database for building internet-scale, globally-distributed apps.",
-    "majorRepos": ["YugaByte/yugabyte-db"],
+    "majorRepos": [
+      "YugaByte/yugabyte-db"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "SeldonIO",
@@ -424,9 +503,11 @@
     "logoUrl": "https://avatars2.githubusercontent.com/u/10297834?s=200&v=4",
     "jobUrl": "https://www.seldon.io/careers/",
     "intro": "Machine Learning Deployment for Kubernetes",
-    "majorRepos": ["SeldonIO/seldon-core"],
+    "majorRepos": [
+      "SeldonIO/seldon-core"
+    ],
     "email": "hello@seldon.io",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "FOSSA",
@@ -435,9 +516,11 @@
     "logoUrl": "https://avatars0.githubusercontent.com/u/9543448?s=200&v=4",
     "jobUrl": "https://fossa.com/careers",
     "intro": "Dependency analysis for any codebase",
-    "majorRepos": ["fossas/fossa-cli"],
+    "majorRepos": [
+      "fossas/fossa-cli"
+    ],
     "email": "support@fossa.com",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Oro",
@@ -446,9 +529,11 @@
     "logoUrl": "https://avatars0.githubusercontent.com/u/4165718?s=200&v=4",
     "jobUrl": "https://oroinc.com/careers",
     "intro": "OroCRM - an open-source Customer Relationship Management application.",
-    "majorRepos": ["oroinc/crm"],
+    "majorRepos": [
+      "oroinc/crm"
+    ],
     "email": "info@oroinc.com",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "CodeCombat",
@@ -457,9 +542,11 @@
     "logoUrl": "https://avatars3.githubusercontent.com/u/5795842?s=200&v=4",
     "jobUrl": "https://codecombat.com/about#careers",
     "intro": "Game for learning how to code",
-    "majorRepos": ["codecombat/codecombat"],
+    "majorRepos": [
+      "codecombat/codecombat"
+    ],
     "email": "team@codecombat.com",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Sentry",
@@ -468,9 +555,11 @@
     "logoUrl": "https://avatars3.githubusercontent.com/u/1396951?s=200&v=4",
     "jobUrl": "https://sentry.io/careers/",
     "intro": "Cross-platform application monitoring, with a focus on error reporting",
-    "majorRepos": ["getsentry/sentry"],
+    "majorRepos": [
+      "getsentry/sentry"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "Slic3r",
@@ -479,9 +568,11 @@
     "logoUrl": "https://avatars0.githubusercontent.com/u/38015467?s=200&v=4",
     "jobUrl": "https://slic3r.org/blog/job-opportunities/",
     "intro": "Open Source 3D printing toolbox",
-    "majorRepos": ["slic3r/Slic3r"],
+    "majorRepos": [
+      "slic3r/Slic3r"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "xTuple",
@@ -490,9 +581,11 @@
     "logoUrl": "https://avatars2.githubusercontent.com/u/703922?s=200&v=4",
     "jobUrl": "https://xtuple.com/about/careers",
     "intro": "Open-source ERP and CRM software",
-    "majorRepos": ["xtuple/xtuple"],
+    "majorRepos": [
+      "xtuple/xtuple"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "eZ Systems",
@@ -501,9 +594,11 @@
     "logoUrl": "https://avatars2.githubusercontent.com/u/295311?s=200&v=4",
     "jobUrl": "https://ez.no/About-eZ/Careers",
     "intro": "Professional CMS",
-    "majorRepos": ["ezsystems/ezplatform"],
+    "majorRepos": [
+      "ezsystems/ezplatform"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   },
   {
     "organization": "DECENTfoundation",
@@ -512,8 +607,10 @@
     "logoUrl": "https://avatars1.githubusercontent.com/u/13256806?s=200&v=4",
     "jobUrl": "https://decent.ch/careers/",
     "intro": "Blockchain You Can Easily Build On",
-    "majorRepos": ["DECENTfoundation/DECENT-Network"],
+    "majorRepos": [
+      "DECENTfoundation/DECENT-Network"
+    ],
     "email": "",
-    "updatedAt": "2019-04-18"
+    "updatedAt": "2019-04-30"
   }
 ]

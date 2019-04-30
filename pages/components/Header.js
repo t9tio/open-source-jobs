@@ -26,52 +26,46 @@ function Header({ title, description, logoUrl }) {
       <nav className="navbar is-black" role="navigation" aria-label="main navigation">
         <div className="container">
           <div className="navbar-brand">
-            <a className="navbar-item" href="https://t9t.io">
+            <a className="navbar-item" href="/">
               <img src="https://t9t.io/favicon.ico" alt="favicon" width="28" height="28" />
             </a>
-            <a className="navbar-item" href="/help-wanted"><strong>Help wanted</strong></a>
-            <a className="navbar-item" href="/organizations"><strong>Organizations</strong></a>
-            <a className="navbar-item" href="/"><strong>Jobs</strong></a>
-            {
-              user ? (
-                <a
-                  href
-                  className={`button navbar-burger is-black ${isBurgerActive ? 'is-active' : ''}`}
-                  onClick={() => setBugerActive(!isBurgerActive)}
-                >
-                  <span />
-                  <span />
-                  <span />
-                </a>
-              ) : ''
-            }
+            <a
+              href
+              className={`button navbar-burger is-black ${isBurgerActive ? 'is-active' : ''}`}
+              onClick={() => setBugerActive(!isBurgerActive)}
+            >
+              <span />
+              <span />
+              <span />
+            </a>
           </div>
-          {
-            user
-              ? (
-                <div className={`navbar-menu ${isBurgerActive ? 'is-active' : ''}`}>
+
+          <div className={`navbar-menu ${isBurgerActive ? 'is-active' : ''}`}>
+            <div className="navbar-start">
+              <a className="navbar-item" href="/organizations"><strong>Organizations</strong></a>
+              <a className="navbar-item" href="/jobs"><strong>Jobs</strong></a>
+              <a className="navbar-item" href="/help-wanted"><strong>Help wanted</strong></a>
+            </div>
+
+            {
+              user
+                ? (
                   <div className="navbar-end">
                     <div className="navbar-item has-dropdown is-hoverable">
                       <a href className="navbar-link">
                         {user}
                       </a>
                       <div className="navbar-dropdown is-right">
-                        {/**
-                          <a href className="navbar-item">
-                            Share
-                          </a>
-                          <hr className="navbar-divider" />
-                        */}
                         <a href className="navbar-item" onClick={() => signout()}>
                           Sign out
                         </a>
                       </div>
                     </div>
                   </div>
-                </div>
-              )
-              : ''
-          }
+                )
+                : ''
+            }
+          </div>
         </div>
       </nav>
 
@@ -110,17 +104,6 @@ function Header({ title, description, logoUrl }) {
             </div>
           </div>
         </div>
-        {/**
-          <div className="tabs is-boxed main-menu container">
-          <ul>
-            <li data-target="pane-1" id="1" className="is-active">
-              <a>Jobs</a>
-            </li>
-            <li data-target="pane-2" id="2">
-              <a>Post a job</a>
-            </li>
-          </ul>
-          </div> */}
       </section>
     </div>
   );
