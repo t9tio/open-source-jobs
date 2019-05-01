@@ -10,8 +10,7 @@ https://oo.t9t.io/jobs
 
 For profit organizations who open sourced their major products
 
-https://oo.t9t.io/orgnizaations
-
+https://oo.t9t.io/organizations
 
 ## Contributors
 
