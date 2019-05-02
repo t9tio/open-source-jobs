@@ -1,5 +1,19 @@
 [
   {
+    "organization": "GitLab",
+    "logoUrl": "https://avatars3.githubusercontent.com/u/22105643?s=200&v=4",
+    "jobTitle": "Engineering Manager, Serverless",
+    "jobUrl": "https://about.gitlab.com/jobs/apply/engineering-manager-serverless-4196093002/",
+    "locations": [
+      "remote"
+    ],
+    "techTags": [
+      "ruby",
+      "go"
+    ],
+    "date": "2019-05-02"
+  },
+  {
     "organization": "npm",
     "logoUrl": "https://avatars0.githubusercontent.com/u/6078720?s=200&v=4",
     "jobTitle": "Open Source Engineer",

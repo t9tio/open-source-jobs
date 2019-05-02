@@ -27,6 +27,17 @@
     "updatedAt": "2019-04-30"
   },
   {
+    "organization": "GitLab",
+    "github": "gitlab",
+    "officialUrl": "https://gitlab.com",
+    "logoUrl": "https://avatars3.githubusercontent.com/u/22105643?s=200&v=4",
+    "jobUrl": "https://about.gitlab.com/jobs/apply/",
+    "intro": "A single application for the entire software development lifecycle.",
+    "majorRepos": [],
+    "email": "",
+    "updatedAt": "2019-04-30"
+  },
+  {
     "organization": "elastic",
     "github": "elastic",
     "officialUrl": "https://www.elastic.co/",
