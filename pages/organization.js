@@ -54,7 +54,7 @@ class Index extends React.Component {
                   </tr>
                   <tr>
                     <td><strong>Job Url:</strong></td>
-                    <td><a href={`https://github.com/${github}`}>{`github.com/${github}`}</a></td>
+                    <td><a href={jobUrl}>{jobUrl}</a></td>
                   </tr>
                   <tr>
                     <td><strong>Email:</strong></td>

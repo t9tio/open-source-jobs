@@ -1,5 +1,18 @@
 [
   {
+    "organization": "Signal",
+    "logoUrl": "https://avatars1.githubusercontent.com/u/702459?s=200&v=4",    
+    "jobTitle": "Android Developer",
+    "jobUrl": "https://jobs.lever.co/signal/cc2a16be-b9aa-496e-ba2c-cf8ba3672267",
+    "locations": [
+      "remote"
+    ],
+    "techTags": [
+      "java"
+    ],
+    "date": "2019-05-04"
+  },
+  {
     "organization": "GitLab",
     "logoUrl": "https://avatars3.githubusercontent.com/u/22105643?s=200&v=4",
     "jobTitle": "Engineering Manager, Serverless",

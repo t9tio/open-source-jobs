@@ -15,12 +15,12 @@ function JobCard({
         <div className="media">
           <div className="media-left">
             <figure className="image is-48x48">
-              <img src={logoUrl} alt="logo" />
+              <a href={`/organization/${organization}`}><img src={logoUrl} alt="logo" /></a>
             </figure>
           </div>
           <div className="media-content">
             <p className="title is-5">
-              <a className="job-title-link" href={jobUrl} target="_blank" rel="noopener noreferrer">
+              <a className="job-title-link" href={`${jobUrl}?ref=oo.t9t.io`} target="_blank" rel="noopener noreferrer">
                 {jobTitle}
                 <tag className="tag is-white"><i className="far fa-share-square" /></tag>
               </a>
@@ -35,7 +35,7 @@ function JobCard({
             </p>
             <p className="subtitle is-6">
               <a href={`/organization/${organization}`}>
-            @
+                @
                 {organization}
               </a>
               <span className="date-span">{date}</span>

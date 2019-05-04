@@ -195,6 +195,19 @@
     "updatedAt": "2019-04-30"
   },
   {
+    "organization": "Signal",
+    "github": "signalapp",
+    "officialUrl": "https://signal.org/",
+    "logoUrl": "https://avatars1.githubusercontent.com/u/702459?s=200&v=4",
+    "jobUrl": "https://jobs.lever.co/signal",
+    "intro": "Privacy that fits in your pocket.",
+    "majorRepos": [
+      "signalapp/Signal-Android"
+    ],
+    "email": "",
+    "updatedAt": "2019-05-04"
+  },
+  {
     "organization": "comma.ai",
     "github": "commaai",
     "officialUrl": "https://comma.ai/",
