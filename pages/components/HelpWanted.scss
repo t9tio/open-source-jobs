@@ -1,21 +1,19 @@
-.job-item {
-  margin-bottom: 10px;
+.issue-item {
+  margin-bottom: 7px;
+  .card-content {
+    padding: 1em;
+  }
 }
 
-.job-title-link {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.tag-block {
-  display: inline-block;
+.tag {
+  // margin-right: 3px;
 }
 
 .date-span {
   float: right;
 }
 
-.job-filter {
+.issue-filter {
   margin-top: -1em;
   margin-bottom: 1em;
 }
@@ -43,22 +41,21 @@
   }
 }
 
-.post-job-button {
+.issue-cards-container {
+  padding-top: 1em;
+}
+
+.issue-title-link {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.issue-repo {
+  color: #555;
+}
+.add-repo-button {
   position: fixed;
   z-index:2;
   right: 10px;
   bottom: 10px;
-}
-
-.location-tag {
-  // font-style: oblique;
-  border: 1px dotted #999;
-}
-
-// .search-tag-container {
-//   margin-top: -15px;
-// }
-
-.job-cards-container {
-  padding-top: 1em;
 }

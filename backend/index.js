@@ -7,6 +7,8 @@ const next = require('next');
 const UserDao = require('./db/User');
 const jobs = require('./jobs.json');
 const organizations = require('./organizations.json');
+const issues = require('./issues.json');
+const repos = require('./repos.json');
 
 const dev = process.env.NODE_ENV !== 'production';
 const nextApp = next({ dev });
@@ -90,7 +92,7 @@ nextApp.prepare().then(() => {
     }
   });
 
-  app.get('/help-wanted', (req, res) => nextApp.render(req, res, '/help-wanted'));
+  app.get('/help-wanted', (req, res) => nextApp.render(req, res, '/help-wanted', { issues, repos }));
 
   app.get('*', (req, res) => handle(req, res));
 

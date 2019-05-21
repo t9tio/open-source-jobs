@@ -3,8 +3,12 @@ import PropTypes from 'prop-types';
 import { useState, useEffect } from 'react';
 import JobCard from './JobCard';
 
-function arrAIncludesArrB(a, b) {
-  return b.every(v => a.includes(v));
+
+function arrAIncludesArrBEl(a, b) {
+  if (b.length <= 0) return true;
+  const bi = b.filter(v => a.includes(v));
+  if (bi.length > 0) return true;
+  return false;
 }
 
 function getAllTechTags(jobs) {
@@ -85,8 +89,8 @@ function Jobs({ jobs }) {
     date,
     techTags,
   }) => {
-    const isLoMatched = arrAIncludesArrB(locations, loSearchArr);
-    const isTechMatched = arrAIncludesArrB(techTags, techSearchArr);
+    const isLoMatched = arrAIncludesArrBEl(locations, loSearchArr);
+    const isTechMatched = arrAIncludesArrBEl(techTags, techSearchArr);
 
     if (isLoMatched && isTechMatched) {
       return (
@@ -119,8 +123,8 @@ function Jobs({ jobs }) {
         setLoTagInput('');
       }
       if (tagType === 'tech') {
-        if (allLoTags.includes(techTagInput) && !loSearchArr.includes(techTagInput)) {
-          setLoSearchArr(loSearchArr.concat([techTagInput]));
+        if (allTechTags.includes(techTagInput) && !techSearchArr.includes(techTagInput)) {
+          setTechSearchArr(techSearchArr.concat([techTagInput]));
         }
         setTechTagInput('');
       }
@@ -136,6 +140,48 @@ function Jobs({ jobs }) {
     if (tagType === 'tech') setTechSearchArr(techSearchArr.filter(techTag => techTag !== tag));
   }
 
+  const loSearchTags = loSearchArr.map(tag => (
+    <span className="tag location-tag">
+      {tag}
+      <button
+        type="button"
+        className="delete is-small"
+        onClick={() => removeTag(tag, 'lo')}
+      />
+    </span>
+  )).reduce((acc, cur, i, arr) => {
+    acc.push(cur);
+    if (arr[i + 1]) acc.push(' || ');
+    return acc;
+  }, []);
+
+  const techSearchTags = techSearchArr.map(tag => (
+    <span className="tag is-rounded">
+      {tag}
+      <button type="button" className="delete is-small" onClick={() => removeTag(tag, 'tech')} />
+    </span>
+  )).reduce((acc, cur, i, arr) => {
+    acc.push(cur);
+    if (arr[i + 1]) acc.push(' || ');
+    return acc;
+  }, []);
+
+  if (techSearchTags.length >= 3 && loSearchTags.length > 0) {
+    techSearchTags.unshift('( ');
+    techSearchTags.push(' )');
+  }
+
+  if (loSearchTags.length >= 3 && techSearchTags.length > 0) {
+    loSearchTags.unshift('( ');
+    loSearchTags.push(' )');
+  }
+
+  let searchTags = [];
+  if (loSearchTags.length > 0 && techSearchTags.length > 0) {
+    searchTags = loSearchTags.concat([' && ', ...techSearchTags]);
+  } else {
+    searchTags = loSearchTags.concat(techSearchTags);
+  }
   return (
     <div className="section">
       <div className="container">
@@ -161,23 +207,7 @@ function Jobs({ jobs }) {
         </div>
         <div className="search-tag-container">
           {
-            loSearchArr.map(tag => (
-              <span className="tag location-tag">
-                {tag}
-                <button type="button" className="delete is-small" onClick={() => removeTag(tag, 'lo')} />
-              </span>
-            ))
-            // .reduce((pre, cur) => {
-              
-            // }, [<span>)</span>])
-          }
-          {
-            techSearchArr.map(tag => (
-              <span className="tag is-rounded">
-                {tag}
-                <button type="button" className="delete is-small" onClick={() => removeTag(tag, 'tech')} />
-              </span>
-            ))
+            searchTags
           }
         </div>
         <div className="job-cards-container">

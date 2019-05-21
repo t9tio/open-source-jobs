@@ -1,5 +1,18 @@
 [
   {
+    "organization": "Foundation for Public Code",
+    "logoUrl": "https://avatars0.githubusercontent.com/u/29728125?s=200&v=4",    
+    "jobTitle": "Codebase steward for quality",
+    "jobUrl": "https://about.publiccode.net/roles/quality.html",
+    "locations": [
+      "Amsterdam"
+    ],
+    "techTags": [
+      "quality assurance"
+    ],
+    "date": "2019-05-21"
+  },
+  {
     "organization": "Signal",
     "logoUrl": "https://avatars1.githubusercontent.com/u/702459?s=200&v=4",    
     "jobTitle": "Android Developer",

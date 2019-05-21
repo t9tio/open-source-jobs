@@ -26,10 +26,10 @@ function JobCard({
               </a>
               <span className="tag-block">
                 {
-                  locations.map(lo => <a className="location-tag tag">{lo}</a>)
+                  locations.map(lo => <span><a className="location-tag tag">{lo}</a>&nbsp;</span>)
                 }
                 {
-                  techTags.map(tag => <a className="tag is-rounded">{tag}</a>)
+                  techTags.map(tag => <span><a className="tag is-rounded">{tag}</a>&nbsp;</span>)
                 }
               </span>
             </p>

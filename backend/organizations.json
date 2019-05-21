@@ -636,5 +636,19 @@
     ],
     "email": "",
     "updatedAt": "2019-04-30"
+  },
+  {
+    "organization": "Foundation for Public Code",
+    "github": "publiccodenet",
+    "officialUrl": "https://publiccode.net/",
+    "logoUrl": "https://avatars0.githubusercontent.com/u/29728125?s=200&v=4",
+    "jobUrl": "https://about.publiccode.net/roles/",
+    "intro": "We help public organisations develop and maintain software and policy together.",
+    "majorRepos": [
+      "publiccodenet/about",
+      "publiccodenet/standard"
+    ],
+    "email": "info@publiccode.net",
+    "updatedAt": "2019-05-21"
   }
 ]
