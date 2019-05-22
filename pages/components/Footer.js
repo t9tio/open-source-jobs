@@ -21,6 +21,13 @@ function Footer() {
 
           <a
             className="icon button is-white"
+            href="https://github.com/t9tio"
+          >
+            <i className="fab fa-github" />
+          </a>
+
+          <a
+            className="icon button is-white"
             href="https://twitter.com/t9tio"
           >
             <i className="fab fa-twitter" />

@@ -81,13 +81,13 @@
     "languages": ["go"],
     "org":"gogs",
     "logoUrl":"https://avatars2.githubusercontent.com/u/6656686?s=200&v=4",
-    "isOpenCompany": true
+    "isOpenCompany": false
 },{
     "path": "twbs/bootstrap",
     "languages": ["javascript", "css"],
     "org":"twbs",
     "logoUrl":"https://avatars1.githubusercontent.com/u/2918581?s=200&v=4",
-    "isOpenCompany": true
+    "isOpenCompany": false 
 },{
     "path": "symfony/symfony",
     "languages": ["php"],

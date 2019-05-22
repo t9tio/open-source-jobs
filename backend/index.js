@@ -72,11 +72,11 @@ nextApp.prepare().then(() => {
       if (!user) {
         await UserDao.put(userToSave);
       }
-      res.redirect(`/jobs?user=${username}`);
+      res.redirect(`/?user=${username}`);
     },
   );
 
-  app.get('/', (req, res) => res.redirect('https://github.com/t9tio/open-source-jobs'));
+  app.get('/', (req, res) => nextApp.render(req, res, '/landing'));
 
   app.get('/jobs', (req, res) => nextApp.render(req, res, '/index', { jobs }));
 

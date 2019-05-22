@@ -1,6 +1,7 @@
 import Head from './components/Head';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Nav from './components/Nav';
 
 class Index extends React.Component {
   static async getInitialProps({ query: { organization } }) {
@@ -17,6 +18,7 @@ class Index extends React.Component {
     return (
       <div>
         <Head title={organization} description={intro} activeTab={1} />
+        <Nav />
         <Header title={organization} description={intro} logoUrl={logoUrl} />
         <section className="section">
           <div className="container">
