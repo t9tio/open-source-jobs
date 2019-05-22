@@ -7,6 +7,6 @@ assignees: ''
 
 ---
 
-Requirement: 
+Requirements: 
 - [ ] the repo has more than 1000 stars
 - [ ] the repo has issues tagged with `help-wanted`
