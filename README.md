@@ -15,6 +15,12 @@ For profit organizations who open sourced their major products
 
 https://oo.t9t.io/organizations
 
+## Help wanted
+
+Collect issues on github tagged with help-wanted
+
+https://oo.t9t.io/help-wanted
+
 ## Contributors
 
 - [timqian](https://github.com/timqian) building transparent projects at [t9t.io](https://t9t.io)
