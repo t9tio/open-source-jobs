@@ -87,6 +87,7 @@ function HelpWanted({ repos, issues }) {
           languages:
           repo.languages,
           date: issue.updated_at.slice(0, 10),
+          isOpenCompany: repo.isOpenCompany,
         }}
         />
       );
@@ -219,7 +220,7 @@ function HelpWanted({ repos, issues }) {
         { issueCards }
       </div>
       <a
-        href="https://github.com/t9tio/open-source-jobs/issues/new?assignees=&labels=&template=post-a-new-job.md&title=%5BJob+Post%5D%3A"
+        href="https://github.com/t9tio/open-source-jobs/issues/new?assignees=&labels=&template=suggest-a-new-repo-for-help-wanted-page.md&title=%5BSuggest+a+new+repo+for+help-wanted+page%5D%3A+"
         className="add-repo-button button is-danger"
       >
         Suggest a new repo

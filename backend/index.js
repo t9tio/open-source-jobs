@@ -82,11 +82,11 @@ nextApp.prepare().then(() => {
 
   app.get('/organizations', (req, res) => nextApp.render(req, res, '/organizations', { organizations }));
 
-  app.get('/organization/:organization', (req, res) => {
-    const paramOrg = req.params.organization;
-    const orgInDb = organizations.filter(org => org.organization === paramOrg)[0];
+  app.get('/organization/:github', (req, res) => {
+    const paramOrg = req.params.github;
+    const orgInDb = organizations.filter(org => org.github === paramOrg)[0];
     if (!orgInDb) {
-      res.status(404).json('Organization not fond');
+      res.redirect('/organizations');
     } else {
       nextApp.render(req, res, '/organization', { organization: orgInDb });
     }

@@ -1,4 +1,4 @@
-function JobCard({
+function IssueCard({
   issue: {
     organization,
     repoPath,
@@ -8,6 +8,7 @@ function JobCard({
     labels,
     languages,
     date,
+    isOpenCompany,
   },
 }) {
   return (
@@ -18,6 +19,7 @@ function JobCard({
             <figure className="image is-48x48">
               <a href={`/organization/${organization}`}><img src={logoUrl} alt="logo" /></a>
             </figure>
+            {isOpenCompany ? <a className="open-company-span" href="/organizations">open company</a> : ''}
           </div>
           <div className="media-content">
             <p className="title is-5">
@@ -27,7 +29,7 @@ function JobCard({
               </a>
               <span className="tag-block">
                 {
-                  labels.map(label => <span><a className="tag" style={{ color: 'black', backgroundColor: `#${label.color}` }}>{label.name}</a>&nbsp;</span>)
+                  labels.map(label => <span><span className="tag" style={{ color: 'black', backgroundColor: `#${label.color}` }}>{label.name}</span>&nbsp;</span>)
                 }
               </span>
             </p>
@@ -38,10 +40,12 @@ function JobCard({
               </a> */}
               &nbsp;
               <span className="tag-block">
-                <a className="location-tag tag">
+                <a className="location-tag tag" href={`https://github.com/${repoPath}/labels/help%20wanted?ref=oo.t9t.io`} target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-github" />
                   &nbsp;
                   {repoPath}
+                  &nbsp;
+                  <i class="far fa-share-square "></i>
                 </a>
                 &nbsp;
                 {
@@ -57,4 +61,4 @@ function JobCard({
   );
 }
 
-export default JobCard;
+export default IssueCard;

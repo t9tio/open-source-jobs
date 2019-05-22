@@ -17,12 +17,12 @@ function OrgCard({
         <div className="media">
           <div className="media-left">
             <figure className="image is-48x48">
-              <a href={`/organization/${organization}`}><img src={logoUrl} alt="logo" /></a>
+              <a href={`/organization/${github}`}><img src={logoUrl} alt="logo" /></a>
             </figure>
           </div>
           <div className="media-content">
             <p className="title is-4">
-              <a className="org-title-link" href={`/organization/${organization}`}>
+              <a className="org-title-link" href={`/organization/${github}`}>
                 {organization}
               </a>
             </p>

@@ -28,6 +28,15 @@ class Index extends React.Component {
               </ul>
             </nav> */}
 
+            <h3 className="title is-4">
+              {organization}
+              {' '}
+              is an
+              {' '}
+              <a href="/organizations">open company</a>
+              {' '}
+              who open sourced their major products
+            </h3>
             <div className="content">
               <table className="table is-hoverable">
                 <tbody>

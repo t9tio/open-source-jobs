@@ -12,7 +12,7 @@ class Index extends React.Component {
     return (
       <div>
         <Head title="Help wanted" description="Collect issues on github tagged with help-wanted" activeTab={1} />
-        <Header title="Help wanted" description="(unfinished)Collect issues on github tagged with help-wanted" />
+        <Header title="Help wanted" description="Collect issues on github tagged with help-wanted" />
         <HelpWanted issues={this.props.issues} repos={this.props.repos} />
         <Footer />
       </div>

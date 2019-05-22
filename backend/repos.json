@@ -3,113 +3,113 @@
     "languages": ["javascript","c++","python"],
     "org": "nodejs",
     "logoUrl": "https://avatars3.githubusercontent.com/u/9950313?s=200&v=4",
-    "isCompany": false
+    "isOpenCompany": false
 },{
     "path": "elastic/elasticsearch",
     "languages": ["java"],
     "org": "elastic",
     "logoUrl": "https://avatars0.githubusercontent.com/u/6764390?s=200&v=4",
-    "isCompany": true
+    "isOpenCompany": true
 },{
     "path": "serverless/serverless",
     "languages": ["javascript"],
     "org":"serverless",
     "logoUrl":"https://avatars1.githubusercontent.com/u/13742415?s=200&v=4",
-    "isCompany": true
+    "isOpenCompany": true
 },{
     "path": "grafana/grafana",
     "languages": ["typescript", "go"],
     "org":"grafana",
     "logoUrl":"https://avatars0.githubusercontent.com/u/7195757?s=200&v=4",
-    "isCompany": true
+    "isOpenCompany": true
 },{
     "path": "pingcap/tidb",
     "languages": ["go"],
     "org":"pingcap",
     "logoUrl":"https://avatars3.githubusercontent.com/u/11855343?s=200&v=4",
-    "isCompany": true
+    "isOpenCompany": true
 },{
     "path": "cockroachdb/cockroach",
     "languages": ["go"],
     "org":"cockroachdb",
     "logoUrl":"https://avatars3.githubusercontent.com/u/6748139?s=200&v=4",
-    "isCompany": true
+    "isOpenCompany": true
 },{
     "path": "arduino/Arduino",
     "languages": ["java", "python"],
     "org":"arduino",
     "logoUrl":"https://avatars2.githubusercontent.com/u/379109?s=200&v=4",
-    "isCompany": true
+    "isOpenCompany": true
 },{
     "path": "signalapp/Signal-Android",
     "languages": ["java"],
     "org":"signalapp",
     "logoUrl":"https://avatars1.githubusercontent.com/u/702459?s=200&v=4",
-    "isCompany": true
+    "isOpenCompany": true
 },{
     "path": "reactioncommerce/reaction",
     "languages": ["javascript"],
     "org":"reactioncommerce",
     "logoUrl":"https://avatars1.githubusercontent.com/u/5605462?s=200&v=4",
-    "isCompany": true
+    "isOpenCompany": true
 },{
     "path": "hasura/graphql-engine",
     "languages": ["javascript", "haskell"],
     "org":"hasura",
     "logoUrl":"https://avatars1.githubusercontent.com/u/13966722?s=200&v=4",
-    "isCompany": true
+    "isOpenCompany": true
 },{
     "path": "RasaHQ/rasa",
     "languages": ["python", "go"],
     "org":"RasaHQ",
     "logoUrl":"https://avatars0.githubusercontent.com/u/21214473?s=200&v=4",
-    "isCompany": true
+    "isOpenCompany": true
 },{
     "path": "bcoin-org/bcoin",
     "languages": ["javascript"],
     "org":"bcoin-org",
     "logoUrl":"https://avatars1.githubusercontent.com/u/17676391?s=200&v=4",
-    "isCompany": true
+    "isOpenCompany": true
 },{
     "path": "confluentinc/ksql",
     "languages": ["java"],
     "org":"confluentinc",
     "logoUrl":"https://avatars2.githubusercontent.com/u/9439498?s=200&v=4",
-    "isCompany": true
+    "isOpenCompany": true
 },{
     "path": "gogs/gogs",
     "languages": ["go"],
     "org":"gogs",
     "logoUrl":"https://avatars2.githubusercontent.com/u/6656686?s=200&v=4",
-    "isCompany": true
+    "isOpenCompany": true
 },{
     "path": "twbs/bootstrap",
     "languages": ["javascript", "css"],
     "org":"twbs",
     "logoUrl":"https://avatars1.githubusercontent.com/u/2918581?s=200&v=4",
-    "isCompany": true
+    "isOpenCompany": true
 },{
     "path": "symfony/symfony",
     "languages": ["php"],
     "org":"symfony",
     "logoUrl":"https://avatars0.githubusercontent.com/u/143937?s=200&v=4",
-    "isCompany": false
+    "isOpenCompany": false
 },{
     "path": "zeit/next.js",
     "languages": ["javascript", "typescript"],
     "org":"zeit",
     "logoUrl":"https://avatars1.githubusercontent.com/u/14985020?s=200&v=4",
-    "isCompany": false
+    "isOpenCompany": false
 },{
     "path": "developit/preact",
     "languages": ["javascript"],
     "org":"developit",
     "logoUrl":"https://avatars0.githubusercontent.com/u/105127?s=460&v=4",
-    "isCompany": false
+    "isOpenCompany": false
 },{
     "path": "scikit-learn/scikit-learn",
     "languages": ["python"],
     "org":"scikit-learn",
     "logoUrl":"https://avatars2.githubusercontent.com/u/365630?s=200&v=4",
-    "isCompany": false
+    "isOpenCompany": false
 }]

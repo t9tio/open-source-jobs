@@ -53,6 +53,21 @@
 .issue-repo {
   color: #555;
 }
+
+.open-company-span {
+  font-size: 7px;
+  font-weight: bold;
+  position: absolute;
+  background-color: aquamarine;
+  // border-width: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 1px;
+  margin: 0;
+  margin-top: 2px;
+  border-radius: 5px;
+}
+
 .add-repo-button {
   position: fixed;
   z-index:2;
