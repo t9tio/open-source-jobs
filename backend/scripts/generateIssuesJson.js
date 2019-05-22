@@ -10,7 +10,7 @@ async function getIssuesOfRepo(repoPath) {
     repository_url: issue.repository_url,
     title: issue.title,
     labels: issue.labels,
-    htmlUrl: issue.html_url,
+    html_url: issue.html_url,
     updated_at: issue.updated_at,
     created_at: issue.created_at,
   }));
