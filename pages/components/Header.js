@@ -28,6 +28,16 @@ function Header({ title, description, logoUrl }) {
                     : ''
                 }
                 {title}
+                {' '}
+                {
+                  !logoUrl
+                    ? (
+                      <a href="https://github.com/t9tio/open-opportunities">
+                        <img alt="GitHub stars" src="https://img.shields.io/github/stars/t9tio/open-opportunities.svg?style=social" />
+                      </a>
+                    )
+                    : ''
+                }
               </h1>
               <h2 className="subtitle">
                 {description}
