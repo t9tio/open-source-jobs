@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import ReactGA from 'react-ga';
 
 function Nav() {
   const [user, setUser] = useState('');
@@ -14,6 +15,9 @@ function Nav() {
     } else if (window.localStorage.getItem('user')) {
       setUser(window.localStorage.getItem('user'));
     }
+
+    ReactGA.initialize('UA-56506279-8');
+    ReactGA.pageview(window.location.pathname + window.location.search);
   });
 
   function signout() {

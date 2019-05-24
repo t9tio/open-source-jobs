@@ -3,7 +3,6 @@ import 'bulma';
 import 'bulma-tooltip';
 import './Head.scss';
 
-console.log('hi');
 
 function MyHead({ title, description }) {
   return (
