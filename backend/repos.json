@@ -101,10 +101,10 @@
     "logoUrl":"https://avatars1.githubusercontent.com/u/14985020?s=200&v=4",
     "isOpenCompany": false
 },{
-    "path": "developit/preact",
+    "path": "preactjs/preact",
     "languages": ["javascript"],
-    "org":"developit",
-    "logoUrl":"https://avatars0.githubusercontent.com/u/105127?s=460&v=4",
+    "org":"preactjs",
+    "logoUrl":"https://avatars2.githubusercontent.com/u/26872990?s=200&v=4",
     "isOpenCompany": false
 },{
     "path": "scikit-learn/scikit-learn",

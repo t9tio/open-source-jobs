@@ -70,7 +70,7 @@
       }
     ],
     "html_url": "https://github.com/nodejs/node/pull/27375",
-    "updated_at": "2019-05-23T09:22:37Z",
+    "updated_at": "2019-05-24T02:10:50Z",
     "created_at": "2019-04-23T19:59:30Z"
   },
   {
@@ -10459,7 +10459,7 @@
       }
     ],
     "html_url": "https://github.com/symfony/symfony/issues/31323",
-    "updated_at": "2019-05-23T06:54:14Z",
+    "updated_at": "2019-05-23T16:17:19Z",
     "created_at": "2019-04-30T06:28:30Z"
   },
   {
@@ -12115,13 +12115,13 @@
     "created_at": "2018-06-17T18:45:33Z"
   },
   {
-    "repository_url": "https://api.github.com/repos/developit/preact",
+    "repository_url": "https://api.github.com/repos/preactjs/preact",
     "title": "[Chrome devtool - performance tab] user timing api with Preact",
     "labels": [
       {
         "id": 503133782,
         "node_id": "MDU6TGFiZWw1MDMxMzM3ODI=",
-        "url": "https://api.github.com/repos/developit/preact/labels/devtools",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/devtools",
         "name": "devtools",
         "color": "bfd4f2",
         "default": false
@@ -12129,7 +12129,7 @@
       {
         "id": 258981561,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NjE=",
-        "url": "https://api.github.com/repos/developit/preact/labels/enhancement",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/enhancement",
         "name": "enhancement",
         "color": "84b6eb",
         "default": true
@@ -12137,24 +12137,24 @@
       {
         "id": 258981562,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NjI=",
-        "url": "https://api.github.com/repos/developit/preact/labels/help%20wanted",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/help%20wanted",
         "name": "help wanted",
         "color": "159818",
         "default": true
       }
     ],
-    "html_url": "https://github.com/developit/preact/issues/1068",
+    "html_url": "https://github.com/preactjs/preact/issues/1068",
     "updated_at": "2019-04-25T13:27:02Z",
     "created_at": "2018-04-20T14:53:21Z"
   },
   {
-    "repository_url": "https://api.github.com/repos/developit/preact",
+    "repository_url": "https://api.github.com/repos/preactjs/preact",
     "title": "Added test about merging style attribute",
     "labels": [
       {
         "id": 258981559,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NTk=",
-        "url": "https://api.github.com/repos/developit/preact/labels/bug",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/bug",
         "name": "bug",
         "color": "fc2929",
         "default": true
@@ -12162,7 +12162,7 @@
       {
         "id": 258981562,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NjI=",
-        "url": "https://api.github.com/repos/developit/preact/labels/help%20wanted",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/help%20wanted",
         "name": "help wanted",
         "color": "159818",
         "default": true
@@ -12170,24 +12170,24 @@
       {
         "id": 1186697686,
         "node_id": "MDU6TGFiZWwxMTg2Njk3Njg2",
-        "url": "https://api.github.com/repos/developit/preact/labels/in%20X",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/in%20X",
         "name": "in X",
         "color": "544fb5",
         "default": false
       }
     ],
-    "html_url": "https://github.com/developit/preact/pull/977",
+    "html_url": "https://github.com/preactjs/preact/pull/977",
     "updated_at": "2019-03-01T17:22:52Z",
     "created_at": "2018-01-12T13:15:49Z"
   },
   {
-    "repository_url": "https://api.github.com/repos/developit/preact",
+    "repository_url": "https://api.github.com/repos/preactjs/preact",
     "title": "Use Babel 7",
     "labels": [
       {
         "id": 491773363,
         "node_id": "MDU6TGFiZWw0OTE3NzMzNjM=",
-        "url": "https://api.github.com/repos/developit/preact/labels/builds",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/builds",
         "name": "builds",
         "color": "5319e7",
         "default": false
@@ -12195,7 +12195,7 @@
       {
         "id": 258981562,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NjI=",
-        "url": "https://api.github.com/repos/developit/preact/labels/help%20wanted",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/help%20wanted",
         "name": "help wanted",
         "color": "159818",
         "default": true
@@ -12203,7 +12203,7 @@
       {
         "id": 1186697686,
         "node_id": "MDU6TGFiZWwxMTg2Njk3Njg2",
-        "url": "https://api.github.com/repos/developit/preact/labels/in%20X",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/in%20X",
         "name": "in X",
         "color": "544fb5",
         "default": false
@@ -12211,24 +12211,24 @@
       {
         "id": 638589884,
         "node_id": "MDU6TGFiZWw2Mzg1ODk4ODQ=",
-        "url": "https://api.github.com/repos/developit/preact/labels/needs-perf-review",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/needs-perf-review",
         "name": "needs-perf-review",
         "color": "555555",
         "default": false
       }
     ],
-    "html_url": "https://github.com/developit/preact/pull/879",
+    "html_url": "https://github.com/preactjs/preact/pull/879",
     "updated_at": "2019-03-01T17:20:18Z",
     "created_at": "2017-09-16T19:36:17Z"
   },
   {
-    "repository_url": "https://api.github.com/repos/developit/preact",
+    "repository_url": "https://api.github.com/repos/preactjs/preact",
     "title": "TypeScript definition render() problem",
     "labels": [
       {
         "id": 258981562,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NjI=",
-        "url": "https://api.github.com/repos/developit/preact/labels/help%20wanted",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/help%20wanted",
         "name": "help wanted",
         "color": "159818",
         "default": true
@@ -12236,24 +12236,24 @@
       {
         "id": 564247222,
         "node_id": "MDU6TGFiZWw1NjQyNDcyMjI=",
-        "url": "https://api.github.com/repos/developit/preact/labels/types",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/types",
         "name": "types",
         "color": "fef2c0",
         "default": false
       }
     ],
-    "html_url": "https://github.com/developit/preact/issues/830",
+    "html_url": "https://github.com/preactjs/preact/issues/830",
     "updated_at": "2019-05-14T19:44:39Z",
     "created_at": "2017-08-23T20:03:36Z"
   },
   {
-    "repository_url": "https://api.github.com/repos/developit/preact",
+    "repository_url": "https://api.github.com/repos/preactjs/preact",
     "title": "EDGE + svg + dangerouslySetInnerHTML = void",
     "labels": [
       {
         "id": 258981559,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NTk=",
-        "url": "https://api.github.com/repos/developit/preact/labels/bug",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/bug",
         "name": "bug",
         "color": "fc2929",
         "default": true
@@ -12261,24 +12261,24 @@
       {
         "id": 258981562,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NjI=",
-        "url": "https://api.github.com/repos/developit/preact/labels/help%20wanted",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/help%20wanted",
         "name": "help wanted",
         "color": "159818",
         "default": true
       }
     ],
-    "html_url": "https://github.com/developit/preact/issues/786",
+    "html_url": "https://github.com/preactjs/preact/issues/786",
     "updated_at": "2017-09-06T21:07:45Z",
     "created_at": "2017-08-02T12:35:40Z"
   },
   {
-    "repository_url": "https://api.github.com/repos/developit/preact",
+    "repository_url": "https://api.github.com/repos/preactjs/preact",
     "title": "Compatibility issue with react-textfit",
     "labels": [
       {
         "id": 337662274,
         "node_id": "MDU6TGFiZWwzMzc2NjIyNzQ=",
-        "url": "https://api.github.com/repos/developit/preact/labels/compat",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/compat",
         "name": "compat",
         "color": "d4c5f9",
         "default": false
@@ -12286,24 +12286,24 @@
       {
         "id": 258981562,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NjI=",
-        "url": "https://api.github.com/repos/developit/preact/labels/help%20wanted",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/help%20wanted",
         "name": "help wanted",
         "color": "159818",
         "default": true
       }
     ],
-    "html_url": "https://github.com/developit/preact/issues/763",
+    "html_url": "https://github.com/preactjs/preact/issues/763",
     "updated_at": "2018-03-07T04:30:41Z",
     "created_at": "2017-07-20T05:36:29Z"
   },
   {
-    "repository_url": "https://api.github.com/repos/developit/preact",
+    "repository_url": "https://api.github.com/repos/preactjs/preact",
     "title": "Post-mount with componentDidMount",
     "labels": [
       {
         "id": 394826039,
         "node_id": "MDU6TGFiZWwzOTQ4MjYwMzk=",
-        "url": "https://api.github.com/repos/developit/preact/labels/feedback%20needed",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/feedback%20needed",
         "name": "feedback needed",
         "color": "006b75",
         "default": false
@@ -12311,24 +12311,24 @@
       {
         "id": 258981562,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NjI=",
-        "url": "https://api.github.com/repos/developit/preact/labels/help%20wanted",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/help%20wanted",
         "name": "help wanted",
         "color": "159818",
         "default": true
       }
     ],
-    "html_url": "https://github.com/developit/preact/issues/648",
+    "html_url": "https://github.com/preactjs/preact/issues/648",
     "updated_at": "2018-07-04T12:38:00Z",
     "created_at": "2017-04-18T07:14:15Z"
   },
   {
-    "repository_url": "https://api.github.com/repos/developit/preact",
+    "repository_url": "https://api.github.com/repos/preactjs/preact",
     "title": "Improve documentation for `context`",
     "labels": [
       {
         "id": 337662274,
         "node_id": "MDU6TGFiZWwzMzc2NjIyNzQ=",
-        "url": "https://api.github.com/repos/developit/preact/labels/compat",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/compat",
         "name": "compat",
         "color": "d4c5f9",
         "default": false
@@ -12336,7 +12336,7 @@
       {
         "id": 336227749,
         "node_id": "MDU6TGFiZWwzMzYyMjc3NDk=",
-        "url": "https://api.github.com/repos/developit/preact/labels/documentation",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/documentation",
         "name": "documentation",
         "color": "fef2c0",
         "default": false
@@ -12344,24 +12344,24 @@
       {
         "id": 258981562,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NjI=",
-        "url": "https://api.github.com/repos/developit/preact/labels/help%20wanted",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/help%20wanted",
         "name": "help wanted",
         "color": "159818",
         "default": true
       }
     ],
-    "html_url": "https://github.com/developit/preact/issues/577",
+    "html_url": "https://github.com/preactjs/preact/issues/577",
     "updated_at": "2017-04-11T00:57:23Z",
     "created_at": "2017-03-02T14:19:34Z"
   },
   {
-    "repository_url": "https://api.github.com/repos/developit/preact",
+    "repository_url": "https://api.github.com/repos/preactjs/preact",
     "title": "Callback of `setState` is called at not expected time.",
     "labels": [
       {
         "id": 258981559,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NTk=",
-        "url": "https://api.github.com/repos/developit/preact/labels/bug",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/bug",
         "name": "bug",
         "color": "fc2929",
         "default": true
@@ -12369,7 +12369,7 @@
       {
         "id": 337662274,
         "node_id": "MDU6TGFiZWwzMzc2NjIyNzQ=",
-        "url": "https://api.github.com/repos/developit/preact/labels/compat",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/compat",
         "name": "compat",
         "color": "d4c5f9",
         "default": false
@@ -12377,24 +12377,24 @@
       {
         "id": 258981562,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NjI=",
-        "url": "https://api.github.com/repos/developit/preact/labels/help%20wanted",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/help%20wanted",
         "name": "help wanted",
         "color": "159818",
         "default": true
       }
     ],
-    "html_url": "https://github.com/developit/preact/issues/556",
+    "html_url": "https://github.com/preactjs/preact/issues/556",
     "updated_at": "2019-03-15T07:09:52Z",
     "created_at": "2017-02-22T10:55:04Z"
   },
   {
-    "repository_url": "https://api.github.com/repos/developit/preact",
+    "repository_url": "https://api.github.com/repos/preactjs/preact",
     "title": "Support Asynchronous Components",
     "labels": [
       {
         "id": 430613463,
         "node_id": "MDU6TGFiZWw0MzA2MTM0NjM=",
-        "url": "https://api.github.com/repos/developit/preact/labels/discussion",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/discussion",
         "name": "discussion",
         "color": "f9d0c4",
         "default": false
@@ -12402,7 +12402,7 @@
       {
         "id": 258981561,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NjE=",
-        "url": "https://api.github.com/repos/developit/preact/labels/enhancement",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/enhancement",
         "name": "enhancement",
         "color": "84b6eb",
         "default": true
@@ -12410,7 +12410,7 @@
       {
         "id": 258981562,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NjI=",
-        "url": "https://api.github.com/repos/developit/preact/labels/help%20wanted",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/help%20wanted",
         "name": "help wanted",
         "color": "159818",
         "default": true
@@ -12418,7 +12418,7 @@
       {
         "id": 358231948,
         "node_id": "MDU6TGFiZWwzNTgyMzE5NDg=",
-        "url": "https://api.github.com/repos/developit/preact/labels/performance",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/performance",
         "name": "performance",
         "color": "bfdadc",
         "default": false
@@ -12426,24 +12426,24 @@
       {
         "id": 258981564,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NjQ=",
-        "url": "https://api.github.com/repos/developit/preact/labels/question",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/question",
         "name": "question",
         "color": "cc317c",
         "default": true
       }
     ],
-    "html_url": "https://github.com/developit/preact/issues/526",
+    "html_url": "https://github.com/preactjs/preact/issues/526",
     "updated_at": "2019-03-15T07:02:06Z",
     "created_at": "2017-02-02T20:14:38Z"
   },
   {
-    "repository_url": "https://api.github.com/repos/developit/preact",
+    "repository_url": "https://api.github.com/repos/preactjs/preact",
     "title": "check for typeof attribute value, if is string use setAttribute",
     "labels": [
       {
         "id": 430613463,
         "node_id": "MDU6TGFiZWw0MzA2MTM0NjM=",
-        "url": "https://api.github.com/repos/developit/preact/labels/discussion",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/discussion",
         "name": "discussion",
         "color": "f9d0c4",
         "default": false
@@ -12451,7 +12451,7 @@
       {
         "id": 394826039,
         "node_id": "MDU6TGFiZWwzOTQ4MjYwMzk=",
-        "url": "https://api.github.com/repos/developit/preact/labels/feedback%20needed",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/feedback%20needed",
         "name": "feedback needed",
         "color": "006b75",
         "default": false
@@ -12459,7 +12459,7 @@
       {
         "id": 258981562,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NjI=",
-        "url": "https://api.github.com/repos/developit/preact/labels/help%20wanted",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/help%20wanted",
         "name": "help wanted",
         "color": "159818",
         "default": true
@@ -12467,24 +12467,24 @@
       {
         "id": 1186697686,
         "node_id": "MDU6TGFiZWwxMTg2Njk3Njg2",
-        "url": "https://api.github.com/repos/developit/preact/labels/in%20X",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/in%20X",
         "name": "in X",
         "color": "544fb5",
         "default": false
       }
     ],
-    "html_url": "https://github.com/developit/preact/pull/511",
+    "html_url": "https://github.com/preactjs/preact/pull/511",
     "updated_at": "2019-03-01T17:31:34Z",
     "created_at": "2017-01-17T12:39:18Z"
   },
   {
-    "repository_url": "https://api.github.com/repos/developit/preact",
+    "repository_url": "https://api.github.com/repos/preactjs/preact",
     "title": "Rendering and Events Order Mixed Up",
     "labels": [
       {
         "id": 430613463,
         "node_id": "MDU6TGFiZWw0MzA2MTM0NjM=",
-        "url": "https://api.github.com/repos/developit/preact/labels/discussion",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/discussion",
         "name": "discussion",
         "color": "f9d0c4",
         "default": false
@@ -12492,7 +12492,7 @@
       {
         "id": 394826039,
         "node_id": "MDU6TGFiZWwzOTQ4MjYwMzk=",
-        "url": "https://api.github.com/repos/developit/preact/labels/feedback%20needed",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/feedback%20needed",
         "name": "feedback needed",
         "color": "006b75",
         "default": false
@@ -12500,24 +12500,24 @@
       {
         "id": 258981562,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NjI=",
-        "url": "https://api.github.com/repos/developit/preact/labels/help%20wanted",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/help%20wanted",
         "name": "help wanted",
         "color": "159818",
         "default": true
       }
     ],
-    "html_url": "https://github.com/developit/preact/issues/470",
+    "html_url": "https://github.com/preactjs/preact/issues/470",
     "updated_at": "2017-03-17T14:27:30Z",
     "created_at": "2016-12-22T02:52:45Z"
   },
   {
-    "repository_url": "https://api.github.com/repos/developit/preact",
+    "repository_url": "https://api.github.com/repos/preactjs/preact",
     "title": "Preact and Relay",
     "labels": [
       {
         "id": 337662274,
         "node_id": "MDU6TGFiZWwzMzc2NjIyNzQ=",
-        "url": "https://api.github.com/repos/developit/preact/labels/compat",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/compat",
         "name": "compat",
         "color": "d4c5f9",
         "default": false
@@ -12525,7 +12525,7 @@
       {
         "id": 258981562,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NjI=",
-        "url": "https://api.github.com/repos/developit/preact/labels/help%20wanted",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/help%20wanted",
         "name": "help wanted",
         "color": "159818",
         "default": true
@@ -12533,24 +12533,24 @@
       {
         "id": 358231498,
         "node_id": "MDU6TGFiZWwzNTgyMzE0OTg=",
-        "url": "https://api.github.com/repos/developit/preact/labels/important",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/important",
         "name": "important",
         "color": "f99157",
         "default": false
       }
     ],
-    "html_url": "https://github.com/developit/preact/issues/411",
+    "html_url": "https://github.com/preactjs/preact/issues/411",
     "updated_at": "2018-05-17T21:29:52Z",
     "created_at": "2016-11-21T21:16:19Z"
   },
   {
-    "repository_url": "https://api.github.com/repos/developit/preact",
+    "repository_url": "https://api.github.com/repos/preactjs/preact",
     "title": "View not updated with preact-redux and immutable",
     "labels": [
       {
         "id": 482021194,
         "node_id": "MDU6TGFiZWw0ODIwMjExOTQ=",
-        "url": "https://api.github.com/repos/developit/preact/labels/The%20Wreckoning",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/The%20Wreckoning",
         "name": "The Wreckoning",
         "color": "888888",
         "default": false
@@ -12558,7 +12558,7 @@
       {
         "id": 337662274,
         "node_id": "MDU6TGFiZWwzMzc2NjIyNzQ=",
-        "url": "https://api.github.com/repos/developit/preact/labels/compat",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/compat",
         "name": "compat",
         "color": "d4c5f9",
         "default": false
@@ -12566,24 +12566,24 @@
       {
         "id": 258981562,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NjI=",
-        "url": "https://api.github.com/repos/developit/preact/labels/help%20wanted",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/help%20wanted",
         "name": "help wanted",
         "color": "159818",
         "default": true
       }
     ],
-    "html_url": "https://github.com/developit/preact/issues/282",
+    "html_url": "https://github.com/preactjs/preact/issues/282",
     "updated_at": "2019-03-15T07:10:10Z",
     "created_at": "2016-08-21T17:04:49Z"
   },
   {
-    "repository_url": "https://api.github.com/repos/developit/preact",
+    "repository_url": "https://api.github.com/repos/preactjs/preact",
     "title": "PR: Add support for e2e testing",
     "labels": [
       {
         "id": 337662274,
         "node_id": "MDU6TGFiZWwzMzc2NjIyNzQ=",
-        "url": "https://api.github.com/repos/developit/preact/labels/compat",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/compat",
         "name": "compat",
         "color": "d4c5f9",
         "default": false
@@ -12591,15 +12591,40 @@
       {
         "id": 258981562,
         "node_id": "MDU6TGFiZWwyNTg5ODE1NjI=",
-        "url": "https://api.github.com/repos/developit/preact/labels/help%20wanted",
+        "url": "https://api.github.com/repos/preactjs/preact/labels/help%20wanted",
         "name": "help wanted",
         "color": "159818",
         "default": true
       }
     ],
-    "html_url": "https://github.com/developit/preact/issues/242",
+    "html_url": "https://github.com/preactjs/preact/issues/242",
     "updated_at": "2016-09-09T19:44:06Z",
     "created_at": "2016-07-21T21:14:29Z"
+  },
+  {
+    "repository_url": "https://api.github.com/repos/scikit-learn/scikit-learn",
+    "title": "In histogram GBDTs, the parent node negative loss should be computed only once",
+    "labels": [
+      {
+        "id": 12995769,
+        "node_id": "MDU6TGFiZWwxMjk5NTc2OQ==",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/labels/Easy",
+        "name": "Easy",
+        "color": "02d7e1",
+        "default": false
+      },
+      {
+        "id": 723599497,
+        "node_id": "MDU6TGFiZWw3MjM1OTk0OTc=",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/labels/help%20wanted",
+        "name": "help wanted",
+        "color": "33aa3f",
+        "default": true
+      }
+    ],
+    "html_url": "https://github.com/scikit-learn/scikit-learn/issues/13931",
+    "updated_at": "2019-05-23T13:53:37Z",
+    "created_at": "2019-05-23T13:47:44Z"
   },
   {
     "repository_url": "https://api.github.com/repos/scikit-learn/scikit-learn",
@@ -12689,7 +12714,7 @@
       }
     ],
     "html_url": "https://github.com/scikit-learn/scikit-learn/issues/13836",
-    "updated_at": "2019-05-21T00:09:07Z",
+    "updated_at": "2019-05-23T12:56:39Z",
     "created_at": "2019-05-09T06:53:19Z"
   },
   {
@@ -12913,7 +12938,7 @@
       }
     ],
     "html_url": "https://github.com/scikit-learn/scikit-learn/issues/13383",
-    "updated_at": "2019-05-22T13:38:44Z",
+    "updated_at": "2019-05-23T13:35:05Z",
     "created_at": "2019-03-04T12:55:54Z"
   },
   {
@@ -13421,30 +13446,5 @@
     "html_url": "https://github.com/scikit-learn/scikit-learn/issues/12823",
     "updated_at": "2018-12-27T15:34:40Z",
     "created_at": "2018-12-18T23:57:49Z"
-  },
-  {
-    "repository_url": "https://api.github.com/repos/scikit-learn/scikit-learn",
-    "title": "Documentation paths are ambiguous on case insensitive file systems",
-    "labels": [
-      {
-        "id": 12995770,
-        "node_id": "MDU6TGFiZWwxMjk5NTc3MA==",
-        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/labels/Documentation",
-        "name": "Documentation",
-        "color": "0b02e1",
-        "default": false
-      },
-      {
-        "id": 723599497,
-        "node_id": "MDU6TGFiZWw3MjM1OTk0OTc=",
-        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/labels/help%20wanted",
-        "name": "help wanted",
-        "color": "33aa3f",
-        "default": true
-      }
-    ],
-    "html_url": "https://github.com/scikit-learn/scikit-learn/issues/12712",
-    "updated_at": "2019-01-02T20:42:47Z",
-    "created_at": "2018-12-02T22:34:32Z"
   }
 ]
