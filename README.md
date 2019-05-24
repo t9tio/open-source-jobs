@@ -4,7 +4,7 @@
 
 ## Open source jobs
 
-Working on open source and get paid
+Work on open source and get paid
 
 https://oo.t9t.io/jobs
 

@@ -14,7 +14,7 @@ class Index extends React.Component {
       <div>
         <Head title="Open source jobs" description="A list of Open Source projects offering jobs. For who want to work on open source and get paid." activeTab={1} />
         <Nav />
-        <Header title="Open source jobs" description="Working on open source and get paid" />
+        <Header title="Open source jobs" description="Work on open source and get paid" />
         <Jobs jobs={this.props.jobs} />
         <Footer />
       </div>

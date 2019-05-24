@@ -57,7 +57,7 @@ function Landing() {
                 <div className="card-content">
                   <div className="content has-text-centered">
                     <h4 className="title is-3"><a href="/jobs">Open source jobs</a></h4>
-                    <p className="subtitle is-5"> Working on open source and get paid </p>
+                    <p className="subtitle is-5"> Work on open source and get paid </p>
                   </div>
                 </div>
               </div>
