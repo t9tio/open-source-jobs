@@ -9,6 +9,7 @@ function OrgCard({
     github,
     email,
     majorRepos,
+    jobUrl,
   },
 }) {
   return (
@@ -49,6 +50,17 @@ function OrgCard({
                     : ''
                  */}
                 {
+                  jobUrl
+                    ? (
+                      <a href={jobUrl}>
+                        Jobs
+                        {' '}
+                        <i className="far fa-share-square" />
+                      </a>
+                    )
+                    : ''
+                }
+                {
                   officialUrl
                     ? <a className="org-link icon button  is-white" href={officialUrl}><i className="fas fa-home" /></a>
                     : ''
@@ -58,6 +70,7 @@ function OrgCard({
                     ? <a className="org-link icon button  is-white" href={`https://github.com/${github}`}><i className="fab fa-github" /></a>
                     : ''
                 }
+
               </span>
             </p>
           </div>

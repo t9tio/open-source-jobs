@@ -34,7 +34,29 @@ function Landing() {
         <div className="container">
 
           <div className="columns">
-            <div className="column is-4">
+            <div className="column">
+              <div className="card item-card is-shady">
+                <a href="/organizations" className="card-image has-text-centered">
+                  <svg viewBox="0 0 512 512" width="200" className="fa">
+                    <path
+                      style={{ fill: '#004c1290' }}
+                      d="M256,8.144c-141.152,0-256,114.848-256,256C0,369.456,66.016,465.36,164.224,502.768
+                      c4.096,1.632,8.704,1.376,12.672-0.544c3.968-1.952,6.976-5.408,8.288-9.632l48-153.28c2.272-7.264-0.864-15.136-7.52-18.784
+                      C204.896,309.072,192,287.472,192,264.144c0-35.296,28.704-64,64-64s64,28.704,64,64c0,23.328-12.896,44.928-33.664,56.416
+                      c-6.656,3.648-9.824,11.52-7.52,18.784l48,153.28c1.312,4.224,4.32,7.68,8.288,9.632c2.208,1.056,4.608,1.6,6.976,1.6
+                      c1.92,0,3.872-0.352,5.696-1.056C446.016,465.36,512,369.456,512,264.144C512,122.992,397.152,8.144,256,8.144z"
+                    />
+                  </svg>
+                </a>
+                <div className="card-content">
+                  <div className="content has-text-centered">
+                    <h4 className="title is-3"><a href="/organizations">Open companies</a></h4>
+                    <p className="subtitle is-5">For profit organizations who open sourced their major products</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="column">
               <div className="card item-card is-shady">
                 <a href="/jobs" className="card-image has-text-centered">
                   <svg width="200" viewBox="0 0 496 496" className="fa">
@@ -62,29 +84,8 @@ function Landing() {
                 </div>
               </div>
             </div>
-            <div className="column is-4">
-              <div className="card item-card is-shady">
-                <a href="/organizations" className="card-image has-text-centered">
-                  <svg viewBox="0 0 512 512" width="200" className="fa">
-                    <path
-                      style={{ fill: '#004c1290' }}
-                      d="M256,8.144c-141.152,0-256,114.848-256,256C0,369.456,66.016,465.36,164.224,502.768
-                      c4.096,1.632,8.704,1.376,12.672-0.544c3.968-1.952,6.976-5.408,8.288-9.632l48-153.28c2.272-7.264-0.864-15.136-7.52-18.784
-                      C204.896,309.072,192,287.472,192,264.144c0-35.296,28.704-64,64-64s64,28.704,64,64c0,23.328-12.896,44.928-33.664,56.416
-                      c-6.656,3.648-9.824,11.52-7.52,18.784l48,153.28c1.312,4.224,4.32,7.68,8.288,9.632c2.208,1.056,4.608,1.6,6.976,1.6
-                      c1.92,0,3.872-0.352,5.696-1.056C446.016,465.36,512,369.456,512,264.144C512,122.992,397.152,8.144,256,8.144z"
-                    />
-                  </svg>
-                </a>
-                <div className="card-content">
-                  <div className="content has-text-centered">
-                    <h4 className="title is-3"><a href="/organizations">Open companies</a></h4>
-                    <p className="subtitle is-5">For profit organizations who open sourced their major products</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="column is-4">
+
+            {/* <div className="column is-4">
               <div className="card item-card is-shady">
                 <a href="/help-wanted" className="card-image has-text-centered">
                   <svg width="200" viewBox="0 0 264 264" className="fa">
@@ -102,7 +103,7 @@ function Landing() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

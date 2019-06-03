@@ -48,7 +48,7 @@ function Nav() {
             <div className="navbar-start">
               <a className="navbar-item" href="/organizations"><strong>Organizations</strong></a>
               <a className="navbar-item" href="/jobs"><strong>Jobs</strong></a>
-              <a className="navbar-item" href="/help-wanted"><strong>Help wanted</strong></a>
+              {/* <a className="navbar-item" href="/help-wanted"><strong>Help wanted</strong></a> */}
             </div>
 
             {

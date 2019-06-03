@@ -13,6 +13,7 @@ function Organizations({ organizations }) {
     github,
     email,
     majorRepos,
+    jobUrl,
   }) => {
     const starMark = organization + github + majorRepos.join('') + intro;
     if (starMark.toUpperCase().indexOf(search.toUpperCase()) > -1) {
@@ -25,6 +26,7 @@ function Organizations({ organizations }) {
           github,
           email,
           majorRepos,
+          jobUrl,
         }}
         />
       );
