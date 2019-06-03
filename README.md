@@ -69,6 +69,18 @@ A list of Open Source projects offering jobs. For who want to work on open sourc
 | [![](https://img.shields.io/github/stars/slic3r/Slic3r.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#slic3r/Slic3r) [slic3r/Slic3r](https://github.com/slic3r/Slic3r)| Open Source 3D printing toolbox | https://slic3r.org/blog/job-opportunities/ |
 
 
+## [Website](https://oo.t9t.io)
+
+### Develepment
+
+```bash
+# Start server
+npm run sb
+
+# deploy
+up deploy production
+```
+
 ## Thanks
 
 - [open source startups in crunchbase](https://www.crunchbase.com/hub/open-source-startups)
