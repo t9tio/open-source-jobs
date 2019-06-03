@@ -89,6 +89,12 @@ up deploy production
 - Frontend Components: [React.js](https://reactjs.org/)
 - Deployment: [apex up](https://github.com/apex/up)
 
+### Folder Structure
+
+- frontend components: `/pages`
+- server: `/backend/index.js`
+- dynamodb operation: `/backend/db/`
+
 ## Thanks
 
 - [open source startups in crunchbase](https://www.crunchbase.com/hub/open-source-startups)
