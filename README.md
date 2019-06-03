@@ -81,6 +81,14 @@ npm run sb
 up deploy production
 ```
 
+### Tech stack
+
+- Server: [AWS lambda](https://aws.amazon.com/lambda/)
+- Database: [AWS dynamodb](https://aws.amazon.com/dynamodb/)
+- Server Side Rendering for SEO: [next.js](https://github.com/zeit/next.js/)
+- Frontend Components: [React.js](https://reactjs.org/)
+- Deployment: [apex up](https://github.com/apex/up)
+
 ## Thanks
 
 - [open source startups in crunchbase](https://www.crunchbase.com/hub/open-source-startups)

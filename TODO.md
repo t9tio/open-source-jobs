@@ -1,1 +1,0 @@
-- when user click item in datalist add the item automatically: https://stackoverflow.com/a/48328172/4674834
