@@ -81,7 +81,7 @@ npm run sb
 up deploy production
 ```
 
-### Tech stack
+### Tech stack of [oo.t9t.io](https://oo.t9t.io)
 
 - Server: [AWS lambda](https://aws.amazon.com/lambda/)
 - Database: [AWS dynamodb](https://aws.amazon.com/dynamodb/)
