@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sf": "parcel frontend/index.html --out-dir public",
     "sb": "nodemon backend/index.js --watch backend/",
     "start": "NODE_ENV=production node backend/index.js",
     "initDbOnAws": "NODE_ENV=production node backend/db/initDb.js",
