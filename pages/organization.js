@@ -55,7 +55,7 @@ class Index extends React.Component {
                     <td>
                       {
                         majorRepos.map(repo => (
-                          <a href={`https://github.com/${repo}`}>
+                          <a href={repo.startsWith('http') ? repo : `https://github.com/${repo}`}>
                             {`github.com/${repo}`}
                             ;
                           </a>
