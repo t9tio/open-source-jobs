@@ -67,7 +67,8 @@ A list of Open Source projects offering jobs. For who want to work on open sourc
 | [gitlab](https://gitlab.com/groups/gitlab-org)| Open source software to collaborate on code | https://about.gitlab.com/jobs/ |
 | [![](https://img.shields.io/github/stars/getsentry/sentry.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#getsentry/sentry) [getsentry/sentry](https://github.com/getsentry/sentry)| Cross-platform application monitoring, with a focus on error reporting | https://sentry.io/careers/ |
 | [![](https://img.shields.io/github/stars/slic3r/Slic3r.svg?color=green&logo=github&label=%20)](https://star-history.t9t.io#slic3r/Slic3r) [slic3r/Slic3r](https://github.com/slic3r/Slic3r)| Open Source 3D printing toolbox | https://slic3r.org/blog/job-opportunities/ |
-
+| [isc-projects/bind9](https://gitlab.isc.org/isc-projects/bind9)| A complete, highly portable
+implementation of the DNS (Domain Name System) protocol| https://jobs.isc.org/ |
 
 ## [Website](https://oo.t9t.io)
 
@@ -80,6 +81,13 @@ npm run sb
 # deploy
 up deploy production
 ```
+
+### Add new org/job
+
+1. update `organizations.json`/`jobs.json` in `backend` folder
+1. update readme
+1. preview website: `npm run sb`
+1. deploy: `up deploy production`
 
 ### Tech stack of [oo.t9t.io](https://oo.t9t.io)
 

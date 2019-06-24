@@ -34,7 +34,7 @@ function OrgCard({
             ( Building
                 {' '}
                 {majorRepos.map(repo => (
-                  <a href={`https://github.com/${repo}`}>
+                  <a href={repo.startsWith('http') ? repo : `https://github.com/${repo}`}>
                     <i className="fab fa-github" />
                     {' '}
                     {repo}
