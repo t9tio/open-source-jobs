@@ -1,13 +1,16 @@
-# open-source-jobs
-
-[![Join us](https://badgen.net/badge/Join%20the%20community%20of%20t9t.io/Get%20in%20touch/green)](https://t9t.io/#contact)
+# open-source-jobs [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 A list of Open Source projects offering jobs. For who want to work on open source and get paid.
 
-#### [Flter the orgs](https://oo.t9t.io/organizations)
+[![Join us](https://badgen.net/badge/Join%20the%20community%20of%20t9t.io/Get%20in%20touch/green)](https://t9t.io/#contact)
 
-#### [Suggest a new org](https://github.com/t9tio/open-source-jobs/issues/new?assignees=&labels=&template=add-a-new-organization.md&title=%5BOrg+Post%5D%3A)
+## Contents
 
+- [Repos](#repos)
+- [Filter the orgs](https://oo.t9t.io/organizations)
+- [Suggest a new org](https://github.com/t9tio/open-source-jobs/issues/new?assignees=&labels=&template=add-a-new-organization.md&title=%5BOrg+Post%5D%3A)
+
+## Repos
 
 | Repository | Description | Job Page |
 | ------------ | ----------- | -------- |
@@ -70,9 +73,11 @@ A list of Open Source projects offering jobs. For who want to work on open sourc
 | [isc-projects/bind9](https://gitlab.isc.org/isc-projects/bind9)| A complete, highly portable
 implementation of the DNS (Domain Name System) protocol| https://jobs.isc.org/ |
 
-## [Website](https://oo.t9t.io)
+## Website
 
-### Develepment
+https://oo.t9t.io
+
+## Develepment
 
 ```bash
 # Start server
@@ -106,6 +111,10 @@ up deploy production
 ## Thanks
 
 - [open source startups in crunchbase](https://www.crunchbase.com/hub/open-source-startups)
-- [github search](https://github.com/search?utf8=%E2%9C%93&q=stars%3A%3E0&type=Repositories&ref=advsearch&l=&l=)
+- [GitHub search](https://github.com/search?utf8=%E2%9C%93&q=stars%3A%3E0&type=Repositories&ref=advsearch&l=&l=)
 - [remoteintech/remote-jobs](https://github.com/remoteintech/remote-jobs)
 - [Kevin](https://github.com/farrelke) for meaningful disscussions
+
+## License
+
+GPLv3
