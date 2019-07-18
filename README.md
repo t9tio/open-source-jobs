@@ -81,6 +81,8 @@ A list of Open Source projects offering jobs. For who want to work on open sourc
 <https://oo.t9t.io>
 
 ## Development
+<details>
+<summary>How to update the website</summary>
 
 ```bash
 # Start server
@@ -110,6 +112,8 @@ up deploy production
 - frontend components: `/pages`
 - server: `/backend/index.js`
 - dynamodb operation: `/backend/db/`
+
+</details>
 
 ## Thanks
 
