@@ -12,7 +12,7 @@ A list of Open Source projects offering jobs. For who want to work on open sourc
 
 - [Repos](#repos)
 - [Website](#website)
-- [Develepment](#develepment)
+- [Development](#development)
 - [Thanks](#thanks)
 
 ## Repos
@@ -80,7 +80,7 @@ A list of Open Source projects offering jobs. For who want to work on open sourc
 
 <https://oo.t9t.io>
 
-## Develepment
+## Development
 
 ```bash
 # Start server
