@@ -1,4 +1,4 @@
-# open-source-jobs [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+# Open Source Jobs [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 A list of Open Source projects offering jobs. For who want to work on open source and get paid.
 
