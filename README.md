@@ -1,6 +1,6 @@
 # Open Source Jobs [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
-A list of Open Source projects offering jobs. For who want to work on open source and get paid.
+A list of Open Source projects offering jobs. For those who want to work on open source and get paid.
 
 [![Join us](https://badgen.net/badge/Join%20the%20community%20of%20t9t.io/Get%20in%20touch/green)](https://t9t.io/#contact)
 
