@@ -33,7 +33,7 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "github-fork-ribbon-css": "^0.2.1",
-    "next": "^8.0.5-canary.35",
+    "next": "^9.3.2",
     "node-sass": "^4.12.0",
     "nodemon": "^1.18.11",
     "passport": "^0.4.0",
