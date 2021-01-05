@@ -15,7 +15,7 @@
   "author": "timqian",
   "license": "GPLv3",
   "devDependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "browserify": "^16.2.3",
     "eslint": "^5.15.3",
     "eslint-config-airbnb": "^17.1.0",
