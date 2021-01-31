@@ -1,5 +1,12 @@
 [
-  
+  {
+    "organization": "deltachat",
+    "jobUrl": "https://chaos.social/@delta/105304703318393874",
+    "techTags": [
+      "rust"
+    ],
+    "date": "2020-12-01"
+  },
   {
     "organization": "publiccodenet",
     "logoUrl": "https://avatars0.githubusercontent.com/u/29728125?s=200&v=4",
