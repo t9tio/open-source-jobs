@@ -1,3 +1,5 @@
+> Go to [Issues](https://github.com/t9tio/open-source-jobs/issues) to find the latest Orgs and Jobs posted
+
 # Open Source Jobs [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 A list of Open Source projects offering jobs. For those who want to work on open source and get paid.
