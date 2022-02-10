@@ -34,7 +34,7 @@
     "express": "^4.16.4",
     "github-fork-ribbon-css": "^0.2.1",
     "next": "^8.0.5-canary.35",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "nodemon": "^1.18.11",
     "passport": "^0.4.0",
     "passport-github": "^1.1.0",
