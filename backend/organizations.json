@@ -664,5 +664,19 @@
     ],
     "email": "info@isc.org",
     "updatedAt": "2019-06-24"
+  },
+  {
+    "organization": " Mattermost ",
+    "github": "mattermost",
+    "officialUrl": "https://mattermost.com/",
+    "logoUrl": "https://mattermost.com/wp-content/themes/mattermost-2021/frontend/dist/img/mattermost-logo-horizontal.svg",
+    "jobUrl": "https://mattermost.com/careers/",
+    "intro": "Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.",
+    "majorRepos": [
+      "mattermost/mattermost-server",
+      "mattermost/focalboard"
+    ],
+    "email": "info@mattermost.com",
+    "updatedAt": "2022-05-29"
   }
 ]
