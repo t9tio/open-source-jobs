@@ -31,7 +31,7 @@
     "bulma": "^0.7.4",
     "bulma-tooltip": "^2.0.2",
     "cors": "^2.8.5",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "github-fork-ribbon-css": "^0.2.1",
     "next": "^8.0.5-canary.35",
     "node-sass": "^4.12.0",
