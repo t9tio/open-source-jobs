@@ -678,5 +678,18 @@
     ],
     "email": "info@mattermost.com",
     "updatedAt": "2022-05-29"
-  }
+  },
+  {
+    "organization": " ChatFAQ ",
+    "github": "https://github.com/ChatFAQ",
+    "officialUrl": "https://github.com/ChatFAQ",
+    "logoUrl": "https://avatars.githubusercontent.com/u/122884398?s=200&v=4",
+    "jobUrl": "https://with-madrid.com/contact/work-with-us",
+    "intro": "Open source platform for generative chatbots search community manager",
+    "majorRepos": [
+      "https://github.com/ChatFAQ/ChatFAQ"
+    ],
+    "email": "clara.lopez@with-madrid.com",
+    "updatedAt": "2023-05-09"
+  }  
 ]
