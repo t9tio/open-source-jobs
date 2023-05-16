@@ -113,20 +113,6 @@
     "date": "2019-04-30"
   },
   {
-    "organization": "keymetrics",
-    "logoUrl": "https://avatars3.githubusercontent.com/u/7799069?s=200&v=4",
-    "jobTitle": "frontend developer",
-    "jobUrl": "https://pm2.io/jobs/",
-    "locations": [
-      "France"
-    ],
-    "techTags": [
-      "javascript",
-      "typescript"
-    ],
-    "date": "2019-04-30"
-  },
-  {
     "organization": "grafana",
     "logoUrl": "https://avatars0.githubusercontent.com/u/7195757?s=200&v=4",
     "jobTitle": "backend developer",

@@ -77,19 +77,6 @@
     "updatedAt": "2019-04-30"
   },
   {
-    "organization": "Keymetrics",
-    "github": "keymetrics",
-    "officialUrl": "https://pm2.io/",
-    "logoUrl": "https://avatars3.githubusercontent.com/u/7799069?s=200&v=4",
-    "jobUrl": "https://pm2.io/jobs/",
-    "intro": "Node.js Production Process Manager",
-    "majorRepos": [
-      "Unitech/pm2"
-    ],
-    "email": "contact@keymetrics.io",
-    "updatedAt": "2019-04-30"
-  },
-  {
     "organization": "Grafana Labs",
     "github": "grafana",
     "officialUrl": "https://grafana.com",
